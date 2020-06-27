@@ -1,0 +1,4111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DLLExportClass" Collapsed="true">
+    <Position X="62" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGKnl4EgMpk4AQ2gUMisiQBBgDuigxLAyXGiECBhCnI=</HashCode>
+      <FileName>DLLInterface.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EListClass" Collapsed="true">
+    <Position X="28" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>EXPAND.CPP</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicListClass" Collapsed="true">
+    <Position X="25.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>SOUNDDLG.CPP</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractClass" Collapsed="true">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAKEAAAAACAAESAAAEAAAAAACABAQAAQAAAAAgE=</HashCode>
+      <FileName>ABSTRACT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AircraftClass" Collapsed="true">
+    <Position X="8.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EaDAqZBEYQSVQCMIMIp0gQQAAjYESCCEAADSCCGIVAk=</HashCode>
+      <FileName>AIRCRAFT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimClass" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQDDgICAYKGBAgIgAAIAAVwgBgQIAKAAgB2TAWAAAAE=</HashCode>
+      <FileName>ANIM.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioClass" Collapsed="true">
+    <Position X="56.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAggAACAAEAAAAJAAAAAAQAAAAAABIAogABAAgAACI=</HashCode>
+      <FileName>AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseNodeClass" Collapsed="true">
+    <Position X="60.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAQQAgAAAAAAA=</HashCode>
+      <FileName>BASE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseClass" Collapsed="true">
+    <Position X="58.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggoAAAAAUACAQIAABBQAAACAAAAAAAAoCACAAAAA=</HashCode>
+      <FileName>BASE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildingClass" Collapsed="true">
+    <Position X="9.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AajQp6AHQQyMQmIAMRMQa0ViAjZACDmAUNCSCzCMUB0=</HashCode>
+      <FileName>BUILDING.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletClass" Collapsed="true">
+    <Position X="2.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAiIABQACBQiICBCIQwQQAAgQAAAAAACCSACAAgAE=</HashCode>
+      <FileName>BULLET.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoClass" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAABAAAQAgAAAAEAAAQgAAIAAAAEAAAAAgCAABAA=</HashCode>
+      <FileName>CARGO.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDEServerClass" Collapsed="true">
+    <Position X="56.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAEBAEAAQEACACAAgAAAAAAAAAgAAgAQAA=</HashCode>
+      <FileName>CCDDE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCFileClass" Collapsed="true">
+    <Position X="3.25" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAqQAgCAAAAABgAAAAGQAAAAAgBAGAAAA=</HashCode>
+      <FileName>CCFILE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDFileClass" Collapsed="true">
+    <Position X="3.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIBAgAAAIQAIADAAAgAAEIIAEQUAAABgAAAACAA=</HashCode>
+      <FileName>CDFILE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellClass" Collapsed="true">
+    <Position X="67.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AxVUgMiiYQmBkoQkkCoBYSCGEiCqSIQNGgKAKXCQAAE=</HashCode>
+      <FileName>CELL.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckBoxClass" Collapsed="true">
+    <Position X="30.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>CHECKBOX.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckListClass" Collapsed="true">
+    <Position X="21.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAQAKAAAAAABAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>CHEKLIST.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorListClass" Collapsed="true">
+    <Position X="23.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAgAEAAAAAQIAAAAAIAABAAIgAAAAAA=</HashCode>
+      <FileName>COLRLIST.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommBufferClass" Collapsed="true">
+    <Position X="69" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEEAAAEAAGEAkABAATECEQAAFQkAQEAASAgjQIcEAgU=</HashCode>
+      <FileName>COMBUF.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommQueueClass" Collapsed="true">
+    <Position X="70.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAEAAEEAkABAASECEQBABQkKQlAASAgjSIcEAAU=</HashCode>
+      <FileName>COMQUEUE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConfirmationClass" Collapsed="true">
+    <Position X="72.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CONFDLG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnectionClass" Collapsed="true">
+    <Position X="6.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAgAAAAESAFAAAEAACgEAAABAwGIADAECAAAGAQQ=</HashCode>
+      <FileName>CONNECT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnManClass" Collapsed="true">
+    <Position X="16.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAQhAAAEAAAgAkAAQAAAAQEQFAAAAAIAgAAAAA=</HashCode>
+      <FileName>CONNMGR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlClass" Collapsed="true">
+    <Position X="30.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAgAACAAAAAAAEAAAAAAAAAAAAAIQAAAQ=</HashCode>
+      <FileName>CONTROL.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreditClass" Collapsed="true">
+    <Position X="74.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQQAAAAAAAAAAgAAAQDQAACAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>CREDITS.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrewClass" Collapsed="true">
+    <Position X="15" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CREW.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instance_Class" Collapsed="true">
+    <Position X="62" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAEAAAGAIICAAQgAAAAAAAAgBgEAACWCAAgCgAAAA=</HashCode>
+      <FileName>DDE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoClass" Collapsed="true">
+    <Position X="46.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="MonoClass::BoxStyleType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MONOC.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="MonoClass::BoxDataType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MONOC.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="MonoClass::__unnamed_struct_00b1_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MONOC.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="MonoClass::CellType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MONOC.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="MonoClass::__unnamed_struct_00b1_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MONOC.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MonoClass::MonoClassPortEnums" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MONOC.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MonoClass::MonoClassPageEnums" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MONOC.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAUGCAAAQAIAAAAAACIoIAAABIAABAEAgAQBE4AA=</HashCode>
+      <FileName>MONOC.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DescriptionClass" Collapsed="true">
+    <Position X="58.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DESCDLG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dial8Class" Collapsed="true">
+    <Position X="37" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAwAAAAACKAIAAAgAAAAAAgAMAAAAAAAAQ=</HashCode>
+      <FileName>DIAL8.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisplayClass" Collapsed="true">
+    <Position X="0.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CyRRSAhqQSE4DKrhoeIFR0KCQBBuiCBPKA6lwbsaABs=</HashCode>
+      <FileName>DISPLAY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorClass" Collapsed="true">
+    <Position X="5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAEAgBAAAAAAAAAARAAAAQQEQAAAEgARCAAAEI=</HashCode>
+      <FileName>DOOR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DOSSegmentClass" Collapsed="true">
+    <Position X="63.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABQAAAIAAAURAAACAAQAA0CBAAAAAAAQAAAAAQA=</HashCode>
+      <FileName>DPMI.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DriveClass" Collapsed="true">
+    <Position X="5.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gwQAKAAAAFSA8DAAAYIGCQEIAgwAAEBAAgBAADAAEEA=</HashCode>
+      <FileName>DRIVE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditClass" Collapsed="true">
+    <Position X="19" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACgAAAAAAACQQAIAQABAAAAAhAAAAAAwgAAAAAU=</HashCode>
+      <FileName>EDIT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventClass" Collapsed="true">
+    <Position X="65.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAYAEAAQAQAAAAAAQBAAAQEAAAAAAAE=</HashCode>
+      <FileName>EVENT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FacingClass" Collapsed="true">
+    <Position X="67.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAABAFAFiAACBAAAARAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FACING.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryClass" Collapsed="true">
+    <Position X="16.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQHQgIAAACCQBAIgEAgUEQACggAAAjgIBAISACEoAAE=</HashCode>
+      <FileName>FACTORY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FieldClass" Collapsed="true">
+    <Position X="69" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAIAgAAAAQAAIAAAAAAAAhAAAAAAAAAAAAA=</HashCode>
+      <FileName>FIELD.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlasherClass" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAQAAAAAAgAIAQAAAAACCAAAAAAAACCAAAA=</HashCode>
+      <FileName>FLASHER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyClass" Collapsed="true">
+    <Position X="10.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAgIAAQAAAABAAAAAAAAAACEAAAA=</HashCode>
+      <FileName>FLY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FootClass" Collapsed="true">
+    <Position X="6.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIoBYMAiQQQVAwIKgIBQOyATAAQJrihAUgGRCiAJEIk=</HashCode>
+      <FileName>FOOT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCountDownTimerClass" Collapsed="true">
+    <Position X="62" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAABBAAAAAAAAAAAEIIAAAAhAAAAAABACQA=</HashCode>
+      <FileName>FTIMER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuseClass" Collapsed="true">
+    <Position X="2.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAAAAAAAIBAAAAAAAQAAAAAABAIAAIQAACAEgAA=</HashCode>
+      <FileName>FUSE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GadgetClass" Collapsed="true">
+    <Position X="29.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIBCAATAEBgAAEAACADEAEFAAgAAGCAAAiMAACZgQ=</HashCode>
+      <FileName>GADGET.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameControlsClass" Collapsed="true">
+    <Position X="74.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GAMEDLG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GaugeClass" Collapsed="true">
+    <Position X="40.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAGAAAAgAAAAAAKAABAACAAAAAAAAAxAgQgAAAAQ=</HashCode>
+      <FileName>GAUGE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriColorGaugeClass" Collapsed="true">
+    <Position X="41.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAAAAAAAAAAAAACAAAAAAAAAAAAAAABIABAAAA=</HashCode>
+      <FileName>GAUGE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOptionsClass" Collapsed="true">
+    <Position X="15.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggEABAAAAAAIAgAAAAAABAAAACAEGAQAAAIAAAI=</HashCode>
+      <FileName>GOPTIONS.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GScreenClass" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAACAAARwAgBAABEAAQAQAAEABAAEAIAFBCQDAAAAE=</HashCode>
+      <FileName>GSCREEN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedHeapClass" Collapsed="true">
+    <Position X="11.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAChAAABAAAAQRAAAECAAAAgQAgAABCQAI=</HashCode>
+      <FileName>HEAP.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TFixedHeapClass&lt;T&gt;" Collapsed="true">
+    <Position X="10.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAABAAAAAAgAAAEAAAAAAAAAAAAAAgI=</HashCode>
+      <FileName>HEAP.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedIHeapClass" Collapsed="true">
+    <Position X="12.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAhAAAAAAAAAABAAAAAQADAABAAAI=</HashCode>
+      <FileName>HEAP.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TFixedIHeapClass&lt;T&gt;" Collapsed="true">
+    <Position X="12.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIQAAAAAgAAAgAAAAYgAQAAAAAAAAAAAACAAAAI=</HashCode>
+      <FileName>HEAP.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpClass" Collapsed="true">
+    <Position X="0.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAABQAghAAEAAAAAAVAAAABSgAAKBhAAiGAAaAA=</HashCode>
+      <FileName>HELP.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HouseClass" Collapsed="true">
+    <Position X="56.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+1bt69se5y77bXPg/H+V1Y1v+dFtVYM3/dt77nH+T1U=</HashCode>
+      <FileName>HOUSE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfantryClass" Collapsed="true">
+    <Position X="7.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYDQs8AkYYWHQCIEMIIwQQQCAxYECADAQMASCCKAAAk=</HashCode>
+      <FileName>INFANTRY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPXAddressClass" Collapsed="true">
+    <Position X="63.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAQAACAAAAABAAAAgAAACAIA=</HashCode>
+      <FileName>IPXADDR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPXConnClass" Collapsed="true">
+    <Position X="7.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgEAAhAGMgAAAAEBAAAQBAAgAAUACAACCQAAAoAA=</HashCode>
+      <FileName>IPXCONN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPXGlobalConnClass" Collapsed="true">
+    <Position X="7.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAAAEABEAAAEAAIAAAAAAAgEAABAAAACAAAAE=</HashCode>
+      <FileName>IPXGCONN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPXManagerClass" Collapsed="true">
+    <Position X="17.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIMACEAQiVKcEUEBhAkIoQBARAAEYXISCQDLAgQEEIU=</HashCode>
+      <FileName>IPXMGR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Keyboard" Collapsed="true">
+    <Position X="65.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoAAAAAAABAAGAAAAAAACAAAAAAAAAAAABAgAA=</HashCode>
+      <FileName>JSHELL.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LayerClass" Collapsed="true">
+    <Position X="2.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAQAQAAAABAAAAAAAACASIAAAA=</HashCode>
+      <FileName>LAYER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LEDClass" Collapsed="true">
+    <Position X="67.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAEAAgAAAAAQAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>LED.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinkClass" Collapsed="true">
+    <Position X="28" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIACAAAQACAgAgAAIAADAAAAAAAAEACIAAgAAAAAAA=</HashCode>
+      <FileName>LINK.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListClass" Collapsed="true">
+    <Position X="24.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACMAACAAEAIAAAiAEIICBAQQABgAKMAAKIAIgAEgBA4=</HashCode>
+      <FileName>LIST.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileEntryClass" Collapsed="true">
+    <Position X="72.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAIABAAAAAI=</HashCode>
+      <FileName>LOADDLG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadOptionsClass" Collapsed="true">
+    <Position X="69" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQAAAAAAAAAAgAAAAAAAAQAIAAABABAAgAAAIA=</HashCode>
+      <FileName>LOADDLG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicClass" Collapsed="true">
+    <Position X="2.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LOGIC.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapClass" Collapsed="true">
+    <Position X="0.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAEAIAAQmQgAIEAAAAQ0ECIAxRUIsIACEBjKAAaAE=</HashCode>
+      <FileName>MAP.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapEditClass" Collapsed="true">
+    <Position X="0.5" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mYhoDKoK4gUAELKBJB/AglKBQIDCJCsWKBAAMoAl0wA=</HashCode>
+      <FileName>MAPEDIT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MissionClass" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAQRRkQCQRAAAIgIgCAYAAADAABCAAMMAARCEMEAg=</HashCode>
+      <FileName>MISSION.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MixFileClass" Collapsed="true">
+    <Position X="14.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAgAAAAUQAABAAAAAQAAAAAEBBAAAAAAAAAyAI=</HashCode>
+      <FileName>MIXFILE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseClass" Collapsed="true">
+    <Position X="0.5" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAgIAEAQAABBAAkAAgAwQQAABAAAAIAQAAACAEAAE=</HashCode>
+      <FileName>MOUSE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCMessageBox" Collapsed="true">
+    <Position X="65.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAACAAAAAAA=</HashCode>
+      <FileName>MSGBOX.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageListClass" Collapsed="true">
+    <Position X="70.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACFIAAAgEBAAQCQEAQEBAAQEAABAFCAACAACg=</HashCode>
+      <FileName>MSGLIST.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NonSequencedConnClass" Collapsed="true">
+    <Position X="5.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAUAAAAAAAAAACAAwEBAgEAABEgCAAACAAA=</HashCode>
+      <FileName>NOSEQCON.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NullModemConnClass" Collapsed="true">
+    <Position X="5.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAgAEAAAAAEABAAAACAAAAAQAAAACACABAAA=</HashCode>
+      <FileName>NULLCONN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NullModemClass" Collapsed="true">
+    <Position X="15.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUIQSkJwgGAQEMUhsikaAUIEOQhEWlIEiAkLA1IhEIA=</HashCode>
+      <FileName>NULLMGR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectClass" Collapsed="true">
+    <Position X="2.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoRQIIAGQIUBU3IBAgwar8AQAqbAICGAYBG2SToMACE=</HashCode>
+      <FileName>OBJECT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionsClass" Collapsed="true">
+    <Position X="15.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAFMQAABABAiACiAAAAFAAgBAIACHAAoAgAuAAIg=</HashCode>
+      <FileName>OPTIONS.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OverlayClass" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAQBCEACAAIAIAAQUIAAQAAAAAAACSBCAAAAE=</HashCode>
+      <FileName>OVERLAY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketClass" Collapsed="true">
+    <Position X="74.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAoIAAAACAAAAAAAAACCAAAAAAABAAQAE=</HashCode>
+      <FileName>PACKET.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneEntryClass" Collapsed="true">
+    <Position X="56.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAQQAgAAAAAAggAAgAAAAAAA=</HashCode>
+      <FileName>PHONE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerClass" Collapsed="true">
+    <Position X="0.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAIAGABUAAAAAAAECAQ4QAIQABQARAKEACAQCABABA=</HashCode>
+      <FileName>POWER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueueClass&lt;T, size&gt;" Collapsed="true">
+    <Position X="58.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAACYAAAAAAAAQAAAEAAAAAAAACQAAAAAA=</HashCode>
+      <FileName>QUEUE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RadarClass" Collapsed="true">
+    <Position X="0.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAqRARiQIIqIIeKgAEGAwBEAgxiAAAYQIDmwCwRSGE=</HashCode>
+      <FileName>RADAR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RadioClass" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAAAAAQAQAAAAAAKAQAAEAAAACCAQAAAASAAAAA=</HashCode>
+      <FileName>RADIO.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegionClass" Collapsed="true">
+    <Position X="60.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQIAAAAABAAAAQACEAAAAAAAAEAgAAAAAAA=</HashCode>
+      <FileName>REGION.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DifficultyClass" Collapsed="true">
+    <Position X="60.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABQCQBAkAQAAAAAABAAAAAAAAAAAAAAEwA=</HashCode>
+      <FileName>RULES.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RulesClass" Collapsed="true">
+    <Position X="62" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAiAgCQEBABGAUQAAQAAAAEgAIEAgAAACEVngEBRA=</HashCode>
+      <FileName>RULES.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveOptionsClass" Collapsed="true">
+    <Position X="63.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SAVEDLG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreClass" Collapsed="true">
+    <Position X="65.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgFgIBAgCAAAwgAgAgAAQBAAEDAAAAACAACACEgMAE=</HashCode>
+      <FileName>SCORE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreAnimClass" Collapsed="true">
+    <Position X="13" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAAAAgAAAAAABAAAAACAEAAA=</HashCode>
+      <FileName>SCORE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreCredsClass" Collapsed="true">
+    <Position X="8.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAQQAAAAAABAAAAAQAAAgAAAAAAgg=</HashCode>
+      <FileName>SCORE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreTimeClass" Collapsed="true">
+    <Position X="10.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAABAIAg=</HashCode>
+      <FileName>SCORE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScorePrintClass" Collapsed="true">
+    <Position X="13" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAggAAAAAAA=</HashCode>
+      <FileName>SCORE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiStagePrintClass" Collapsed="true">
+    <Position X="15.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAAAEAAACAAAAAAAAAAAggAAAAAAA=</HashCode>
+      <FileName>SCORE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreScaleClass" Collapsed="true">
+    <Position X="17.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>SCORE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenClass" Collapsed="true">
+    <Position X="67.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAABAAEAAgAAAAAAAIAAAAAAAKAAAAAAA=</HashCode>
+      <FileName>SCREEN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollClass" Collapsed="true">
+    <Position X="0.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAAAQAAAAAAAAQAAAQAEAAAAQAAAAGAAAAA=</HashCode>
+      <FileName>SCROLL.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SequencedConnClass" Collapsed="true">
+    <Position X="7.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAUAAAAAAAAAAiAASABAgEAABAgCAAACAAA=</HashCode>
+      <FileName>SEQCONN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SessionClass" Collapsed="true">
+    <Position X="69" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAUkMABEQKkTIgEYATECCBoAQBgZj4IhZamAezALEM=</HashCode>
+      <FileName>SESSION.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeButtonClass" Collapsed="true">
+    <Position X="34.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAgAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SHAPEBTN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SidebarClass" Collapsed="true">
+    <Position X="0.5" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AWIADgBCQAgEIEJBGEBiIQIAACBkgIBIAACgQDCAAAA=</HashCode>
+      <FileName>SIDEBAR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SidebarGlyphxClass" Collapsed="true">
+    <Position X="70.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAiIACAAgAAEQAAEBAAQAAAAAAAAAIAAAAACAACAA=</HashCode>
+      <FileName>SIDEBARGlyphx.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SliderClass" Collapsed="true">
+    <Position X="39.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAAABIQAAAAgKAACAIAAgAEACAAIBAAAAAAAEQ=</HashCode>
+      <FileName>SLIDER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmudgeClass" Collapsed="true">
+    <Position X="18.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAQACEACAEIAIAAQQQAAQAACAAAACSBCAABAE=</HashCode>
+      <FileName>SMUDGE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundControlsClass" Collapsed="true">
+    <Position X="72.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAARACEcIAhAAABAAQAAAAAAAwNAyAAAAAAA=</HashCode>
+      <FileName>SOUNDDLG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpecialClass" Collapsed="true">
+    <Position X="74.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQgEEAQAABRAAAAAAuSKCABBAQAiAwBMADE=</HashCode>
+      <FileName>SPECIAL.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageClass" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAABAAEgQAAAAAAQAAAQACAACAAAEAAAgAACAAAAA=</HashCode>
+      <FileName>STAGE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperClass" Collapsed="true">
+    <Position X="56.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAACEEgBRBQDAAAQADAAAAIAIECAACAAQICAAQAg=</HashCode>
+      <FileName>SUPER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabClass" Collapsed="true">
+    <Position X="0.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>g4AAAAAAQAEAAAAAAQAAAQAAIABAAAAAAggAQCAEAAA=</HashCode>
+      <FileName>TAB.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TarComClass" Collapsed="true">
+    <Position X="5.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAAAQAAAAAAAAAAUAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>TARCOM.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TargetClass" Collapsed="true">
+    <Position X="60.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAAAEAAACAAAQAAAQFSAAAgEAgEBQQAAAAAAAAAg=</HashCode>
+      <FileName>TARGET.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TcpipManagerClass" Collapsed="true">
+    <Position X="63.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QoBQBAEgQBBEYEAGAACwAAIgAAAhAAAIQAACEpGAIF0=</HashCode>
+      <FileName>TCPIP.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamClass" Collapsed="true">
+    <Position X="17.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwKEgIJhIIGADIIIAGMABSQIAgQqQUEAAAIyqCANICE=</HashCode>
+      <FileName>TEAM.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamTypeClass" Collapsed="true">
+    <Position X="23.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UsGAgImARCCEACAAMAKIBQwAwoEAAAQAoAICACAKCAM=</HashCode>
+      <FileName>TEAMTYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechnoClass" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KanlaAKFYwXFSqNRtYJwQQ1aAL4FFInSQGKkQDCNQCk=</HashCode>
+      <FileName>TECHNO.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateClass" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAQACEACAAIEIAAQQAAgQBAAEAAACSACAAAAE=</HashCode>
+      <FileName>TEMPLATE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainClass" Collapsed="true">
+    <Position X="4.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>I4CAgIAFQASMAGAAogIUAURAAgTACCAAQACSACAFAAE=</HashCode>
+      <FileName>TERRAIN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextBlitClass" Collapsed="true">
+    <Position X="65.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAYAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>TEXTBLIT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextButtonClass" Collapsed="true">
+    <Position X="32.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACgAAAAAAAAAQAAAAAAABAABgAAAEAAgAAAAAAE=</HashCode>
+      <FileName>TEXTBTN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThemeClass" Collapsed="true">
+    <Position X="67.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUAAAABAAEAAgkAAECAQCAAAAQAEAAAIIAAKIAAACQ=</HashCode>
+      <FileName>THEME.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToggleClass" Collapsed="true">
+    <Position X="32.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAEAAAAAAAAAAARAIAAAAAAAAAAAAAAw=</HashCode>
+      <FileName>TOGGLE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerClass" Collapsed="true">
+    <Position X="70.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiEiIEAEACEBCAK8AAARUYAggAAABAAEAISCCAAAA0=</HashCode>
+      <FileName>TRIGGER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TurretClass" Collapsed="true">
+    <Position X="5.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAQgAAAAAAAQASAAAAAAAAAACEBAADCAQAA=</HashCode>
+      <FileName>TURRET.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextLabelClass" Collapsed="true">
+    <Position X="16.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAgAAAAAAAAAAACCAgAAABAAAiAAIAAg=</HashCode>
+      <FileName>TXTLABEL.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponTypeClass" Collapsed="true">
+    <Position X="58.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgAAAAAAAAAAAIAAAAAABAAAAAEAAIA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarheadTypeClass" Collapsed="true">
+    <Position X="56.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAECA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HouseTypeClass" Collapsed="true">
+    <Position X="58.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAAgABACYBAEBRAAAACAABAAAAAgCIAgAAGEQA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractTypeClass" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAEAAAAIAAAAAEQAAAAAAAAAgAAQAAAAAAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectTypeClass" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAKkAAAABJAQAAAAAAYJABABAAAAAMAAAAS0AQQA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechnoTypeClass" Collapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACQAggQEUAFCAAABAEABACAAgQAQAJQAEBAAiAAUY=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildingTypeClass" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>6QUBKIAABOEBgCAAoABCAUICANBGgAABBxATAQAAQAQ=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitTypeClass" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4AEAAIRAAEAAEgCAAEDAAQInAIBAAQAAA0AzAADBUAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfantryTypeClass" Collapsed="true">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAEAAIgAAAEAAAAQABBAAVIIAIBAAEAIAQASAAAAIIA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletTypeClass" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wIAABAAAAACESgEAAABkAAIEAABABEAAgQBSAgAAACI=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainTypeClass" Collapsed="true">
+    <Position X="17" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCMAAYAAAAABAIAgACJAAUIAAIBAAAAAAQASgIAAAAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateTypeClass" Collapsed="true">
+    <Position X="19.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAEAAIAABAAAAIAAAABAAUIAAIBBAAAAAwASgAAAEAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimTypeClass" Collapsed="true">
+    <Position X="21.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAIKAACAICAAgAEEAABAAAIACABIAQAAhQwSAwABAoA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AircraftTypeClass" Collapsed="true">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAEgIIBAAEAhCgAAAAFAAQIIAIBAAAAAAQATgAAAQAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OverlayTypeClass" Collapsed="true">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAEABIBAQEAACIAAAABAAWIBAIJAgAAAQwBSAAAAAAI=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmudgeTypeClass" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAEAAIAQRAABAoAAAABAAUIAAIBBAAAAAQASAAAAAAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitClass" Collapsed="true">
+    <Position X="5.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CYDQodCEQwS1QCIAMKFwgQVAAhJECChAQEASCCiIEAk=</HashCode>
+      <FileName>UNIT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitTrackerClass" Collapsed="true">
+    <Position X="72.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgAAAAAAAAACGIAEAAAkCEgAAAAAAAAAQAA=</HashCode>
+      <FileName>UTRACKER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorClass&lt;T&gt;" Collapsed="true">
+    <Position X="1.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAgAACAAAAAQBAAAECAAAAAEAhAAFAAAA=</HashCode>
+      <FileName>VECTOR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicVectorClass&lt;T&gt;" Collapsed="true">
+    <Position X="2.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEAAgAAAAAIAAASAAAEBEAAAIAAAAAFCAAA=</HashCode>
+      <FileName>VECTOR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicVectorArrayClass&lt;T, COUNT, FIRST, DEFAULT&gt;" Collapsed="true">
+    <Position X="46.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAWAAAAAAAAgQAAEEBAAAgIAIBAABAQAA=</HashCode>
+      <FileName>VECTOR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BooleanVectorClass" Collapsed="true">
+    <Position X="63.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEgAAAAABAIAAgAAAQBAQgEAAAgAAAAgAAFAAAA=</HashCode>
+      <FileName>VECTOR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualControlsClass" Collapsed="true">
+    <Position X="74.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEEAACCEAAAgAAAACAQAAAAAAAQIBiAAAAEAA=</HashCode>
+      <FileName>VISUDLG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileClass" Collapsed="true">
+    <Position X="70.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAoAIICAAAAAAgAAEICEAAAAAABAGAIAA=</HashCode>
+      <FileName>win32lib\WWFILE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferClass" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEAAAIgAAgAAAAAAAAIAAAAAAAIAAgAAAAQAA=</HashCode>
+      <FileName>win32lib\BUFFER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitmapClass" Collapsed="true">
+    <Position X="62" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAEAA=</HashCode>
+      <FileName>win32lib\GBUFFER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPoint2D" Collapsed="true">
+    <Position X="69" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>win32lib\GBUFFER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicViewPortClass" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQQYCGAEJABSAwAAYAKAQEAAsIAAAQAJCAnAEABEhIA=</HashCode>
+      <FileName>win32lib\GBUFFER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicBufferClass" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAAAAAAACAEAAgCAAAAAAAAAAAAAAAAHCEAAAAA=</HashCode>
+      <FileName>win32lib\GBUFFER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IconCacheClass" Collapsed="true">
+    <Position X="60.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAaAAAAEEAAAACAAAIAgBAAAAAAAgAYAAAAAA=</HashCode>
+      <FileName>win32lib\ICONCACH.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WWKeyboardClass" Collapsed="true">
+    <Position X="62" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIBAoAAEAgCKBCQGAggAAAQCAAAAAQAAQCAAJExBo=</HashCode>
+      <FileName>win32lib\KEYBOARD.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SurfaceMonitorClass" Collapsed="true">
+    <Position X="58.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAABAAQBAIAAQAEAAIAAAAEAAAAABAAAAA=</HashCode>
+      <FileName>win32lib\MISC.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModemRegistryEntryClass" Collapsed="true">
+    <Position X="72.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAARAAICAAAAACAAAAgEAgAAQIAAQQwBAQQAAAAA=</HashCode>
+      <FileName>win32lib\MODEMREG.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WWMouseClass" Collapsed="true">
+    <Position X="63.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQYKA4AAQcABAALAgMCYAQCAARYAAADAAABEBCGNQ=</HashCode>
+      <FileName>win32lib\MOUSE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetCDClass" Collapsed="true">
+    <Position X="20.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAADAAAAAAAAAgCAAEAAAIAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedBookClass" Collapsed="true">
+    <Position X="20.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIEAAAAAgCAAEAAMAAQQABAAAAdoAIAQAAEAQA=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimerClass" Collapsed="true">
+    <Position X="20.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAAAAAAAAAAJAAAAAKAAAACQAAQA=</HashCode>
+      <FileName>win32lib\TIMER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CountDownTimerClass" Collapsed="true">
+    <Position X="20.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAABAAAAAAAAAAAAAAAAAAAIAAAAAAACQE=</HashCode>
+      <FileName>win32lib\TIMER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinTimerClass" Collapsed="true">
+    <Position X="60.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAIAAAEAAAAAAIAAAIAAQAAIAAAAAAEEBEA=</HashCode>
+      <FileName>win32lib\TIMER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinModemClass" Collapsed="true">
+    <Position X="20.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABwAYAAAEERAEAEhEBABAJQCBIAQQAAAABCFABFBA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinNullModemClass" Collapsed="true">
+    <Position X="20.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAIAAAAABAAAAhAAAAAAAAAAAQAAAAAACAAAABA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SoundEffectNameStruct" Collapsed="true">
+    <Position X="70.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AUDIO.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0093_1" Collapsed="true">
+    <Position X="54.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAQABgAQAAAAQ=</HashCode>
+      <FileName>KEYFRAME.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tShapeHeaderType" Collapsed="true">
+    <Position X="54.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>KEYFRAME.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="countrylist" Collapsed="true">
+    <Position X="56.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACgAAgAAhAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>MAPSEL.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gdistats" Collapsed="true">
+    <Position X="63.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgBAAAAQAABAAAAAIAACAAAAAAAAAAAAIAAAAE=</HashCode>
+      <FileName>MAPSEL.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="nodstats" Collapsed="true">
+    <Position X="67.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgBAAAAQAABgAhAAIAACAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>MAPSEL.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="InfantryAnim" Collapsed="true">
+    <Position X="65.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAFIAAAAAAIAAAgAAAAACAAAAQAAAAAAAAA=</HashCode>
+      <FileName>SCORE.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Fame" Collapsed="true">
+    <Position X="60.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SCORE.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e0_1" Collapsed="true">
+    <Position X="25.25" Y="54.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwEAAAAAAAAAAAAAAAAgAEAAgAAQAhgCAAAADA=</HashCode>
+      <FileName>SCORE.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tColourList" Collapsed="true">
+    <Position X="21.25" Y="54.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>WINSTUB.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0176_1" Collapsed="true">
+    <Position X="1.25" Y="54.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>WINSTUB.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0027_1" Collapsed="true">
+    <Position X="49.25" Y="53.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAQAAAAAAAAAAAEAAAAAAAAAIBAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>COMBUF.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0027_2" Collapsed="true">
+    <Position X="41.25" Y="53.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAEAAAEAAAAAABAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>COMBUF.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0028_1" Collapsed="true">
+    <Position X="33.25" Y="53.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAEFBAAgCAAAAAAAEQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>COMPAT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002a_1" Collapsed="true">
+    <Position X="56.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAQAAAAAAAAAAAEAAAAAAAAAIBAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>COMQUEUE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002a_2" Collapsed="true">
+    <Position X="58.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAEAAAEAAAAAABAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>COMQUEUE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002e_1" Collapsed="true">
+    <Position X="17.25" Y="53.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>CONNECT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_1" Collapsed="true">
+    <Position X="50.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_2" Collapsed="true">
+    <Position X="50.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_3" Collapsed="true">
+    <Position X="60.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAACAAQAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_4" Collapsed="true">
+    <Position X="50.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_5" Collapsed="true">
+    <Position X="50.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAgAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_6" Collapsed="true">
+    <Position X="50.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAAAgAAAABBBAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_7" Collapsed="true">
+    <Position X="5.25" Y="51.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAAACAAAAgAAAAAAEEACAACAAAAAAQCQAAAgAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_8" Collapsed="true">
+    <Position X="50.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAQAADEAAgAAqAAAAEAABAQAAAAAABAAAAIAoAAAAAI=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_9" Collapsed="true">
+    <Position X="50.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_16" Collapsed="true">
+    <Position X="49.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAQAAAAAAAAgAAAAgAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_18" Collapsed="true">
+    <Position X="37.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAIAAAABCAACAgAAIAACAAAAEAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCStaticCellStruct" Collapsed="true">
+    <Position X="74.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCMapDataStruct" Collapsed="true">
+    <Position X="63.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAIAAAAQAAAAAAAAAAAAgAABAEAAAAAAgAAGCAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCObjectLineStruct" Collapsed="true">
+    <Position X="67.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAAgAAAYAE=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCObjectStruct" Collapsed="true">
+    <Position X="70.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgCHSjQFEaggrAtBA4UgEASFApMAJgmZwAAayCCgAI=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCObjectListStruct" Collapsed="true">
+    <Position X="69" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCPlacementCellInfoStruct" Collapsed="true">
+    <Position X="58.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCPlacementInfoStruct" Collapsed="true">
+    <Position X="60.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCSidebarEntryStruct" Collapsed="true">
+    <Position X="69" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAFAAAAAIAAEkIBhIAAgBAAABAAQAAAACAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCSidebarStruct" Collapsed="true">
+    <Position X="70.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAGAAAAAAAAAECQAQAAgAEkJAEAAAgAAAAAAAAAAABA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCDynamicMapEntryStruct" Collapsed="true">
+    <Position X="60.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAACQBEBAAAAgAAgIAEAAAAAAAAAQAQAAAiAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCDynamicMapStruct" Collapsed="true">
+    <Position X="62" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAGAAAAACAAAAACAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GameOverMultiPlayerStatsStruct" Collapsed="true">
+    <Position X="62" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIACAAABAgAAgAAAABAAAQkAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="EventCallbackStruct" Collapsed="true">
+    <Position X="58.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAABEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCMultiplayerOptionsStruct" Collapsed="true">
+    <Position X="65.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAABAAACAAAAAAAkIACAAAAAADAACAIABCAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCSpiedInfoStruct" Collapsed="true">
+    <Position X="72.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCPlayerInfoStruct" Collapsed="true">
+    <Position X="62" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAQIAAAAgAAEECAEIARAAAAAAAGAEQIAAAAAghA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCDifficultyDataStruct" Collapsed="true">
+    <Position X="58.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQCQBAkAQAAAAAABAAAAAAAAAAAAAAEwA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCRulesDataStruct" Collapsed="true">
+    <Position X="63.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCShroudEntryStruct" Collapsed="true">
+    <Position X="65.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAQAAAAAAAQAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCShroudStruct" Collapsed="true">
+    <Position X="67.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCOccupierObjectStruct" Collapsed="true">
+    <Position X="56.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCOccupierEntryHeaderStruct" Collapsed="true">
+    <Position X="72.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CNCOccupierHeaderStruct" Collapsed="true">
+    <Position X="74.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CarryoverObjectStruct" Collapsed="true">
+    <Position X="56.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAAAAAIAAAAABAAAAAAABAAAAAAQIAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0056_1" Collapsed="true">
+    <Position X="1.25" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EXTERNS.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0065_1" Collapsed="true">
+    <Position X="41.25" Y="48.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQCAAIAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>FUNCTION.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NodeNameTag" Collapsed="true">
+    <Position X="33.25" Y="48.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>FUNCTION.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="IPXHEADER" Collapsed="true">
+    <Position X="17.25" Y="48.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAABAAAAAAAAAEgAAAAgBAAAAAAQAAAAAAAABQAAA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ECB" Collapsed="true">
+    <Position X="13.25" Y="48.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAACAAgAAAAAAAABAgAACgAAAAQACAAICA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0086_2" Collapsed="true">
+    <Position X="9.25" Y="48.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAQAAAgIAAAAAAAAAAAAAAAAAAAQAJAngCAAAAA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_008e_1" Collapsed="true">
+    <Position X="46.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>IPXGCONN.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00bd_1" Collapsed="true">
+    <Position X="46.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NULLCONN.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00bd_2" Collapsed="true">
+    <Position X="46.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NULLCONN.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d7_1" Collapsed="true">
+    <Position X="62" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQCAAIAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>REAL.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e8_1" Collapsed="true">
+    <Position X="63.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAQAAAAAAAAgAAAAgAAAAAA=</HashCode>
+      <FileName>SESSION.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e8_2" Collapsed="true">
+    <Position X="67.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAAAAAAEAACAACAAAAAAQAAAAAgAA=</HashCode>
+      <FileName>SESSION.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e8_7" Collapsed="true">
+    <Position X="69" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAADEAAgAAqAAACEAABAQIAAAAABAAAAIAoAAAAAI=</HashCode>
+      <FileName>SESSION.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e8_8" Collapsed="true">
+    <Position X="70.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SESSION.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e8_17" Collapsed="true">
+    <Position X="65.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SESSION.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e8_19" Collapsed="true">
+    <Position X="29.25" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAgAAAAAAAAAAEAEAACAACAAAAAAEAAAAAAA=</HashCode>
+      <FileName>SESSION.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tGameStatisticsStruct" Collapsed="true">
+    <Position X="56.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAIAAAABAgEAAAAAAAAAAABABAAAAAAAQAAAAYEA=</HashCode>
+      <FileName>TCPIP.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TeamMissionTag" Collapsed="true">
+    <Position X="46.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>TEAMTYPE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MemChain" Collapsed="true">
+    <Position X="46.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAQA=</HashCode>
+      <FileName>win32lib\MEM.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MemPool" Collapsed="true">
+    <Position X="46.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAgAAAAAAAAAAAAAAIAAAgAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\MEM.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_016d_1" Collapsed="true">
+    <Position X="5.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAIAAAEAAAAAAAAAACEAAAAESUAAAAAAgAU=</HashCode>
+      <FileName>win32lib\WSA.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_016d_2" Collapsed="true">
+    <Position X="37.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAQQAAAAACgAU=</HashCode>
+      <FileName>win32lib\WSA.CPP</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0129_1" Collapsed="true">
+    <Position X="25.25" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAJAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DDCOLORKEY" Collapsed="true">
+    <Position X="18.25" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DDBLTFX" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAABAIgAAAAAEAQAQABAAAEYAACAEBICgAEAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DDSCAPS" Collapsed="true">
+    <Position X="32.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DDCAPS" Collapsed="true">
+    <Position X="34.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAJAAMAAAoAhEACYI0CAJAgoQAQKAAEiCtEAGqCAAE=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DDPIXELFORMAT" Collapsed="true">
+    <Position X="30.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAQAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DDOVERLAYFX" Collapsed="true">
+    <Position X="31.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAACAAQAAABAAAEQAAAAEhIAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DDBLTBATCH" Collapsed="true">
+    <Position X="4.25" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAgCAAAAAAAgAAAEAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DDSURFACEDESC" Collapsed="true">
+    <Position X="11.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABgMAAAAACAQCACEAgIAAIAACAIAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DPCAPS" Collapsed="true">
+    <Position X="29.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAQAAAAAAAAAAAQIAIAAgAAAABAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0133_1" Collapsed="true">
+    <Position X="22.25" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABAIA0AQAAAAAAAAAAQAAACQAAKAAgAAAEBAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0133_2" Collapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAQAAAAAAABAAAAAAABAAAAEQAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0133_3" Collapsed="true">
+    <Position X="18.25" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0133_4" Collapsed="true">
+    <Position X="9.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0133_5" Collapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0133_6" Collapsed="true">
+    <Position X="29.25" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DSCAPS" Collapsed="true">
+    <Position X="26.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABYAAAKAkAkIAIAAAAAAQAAUAAKAAgAAAAAkgAQEA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DSBCAPS" Collapsed="true">
+    <Position X="7.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAQAAAAAgAAAAAACAABA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_DSBUFFERDESC" Collapsed="true">
+    <Position X="24.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAABAQAAAAAgIAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_013c_4" Collapsed="true">
+    <Position X="38.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAAAAAASAQAAAAgAAAAAAAEAAAAA=</HashCode>
+      <FileName>win32lib\FILE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_013d_1" Collapsed="true">
+    <Position X="25.25" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>win32lib\FILEPCX.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_013d_2" Collapsed="true">
+    <Position X="38.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACAgAAAAAAQEQAAAABAAAAAAAIACAABgAAIAEgg=</HashCode>
+      <FileName>win32lib\FILEPCX.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tIconSetType" Collapsed="true">
+    <Position X="21.25" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>win32lib\ICONCACH.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0148_3" Collapsed="true">
+    <Position X="1.25" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>win32lib\IFF.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_015a_1" Collapsed="true">
+    <Position X="34.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TinfoType" Collapsed="true">
+    <Position X="58.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAWAAABBAACAABABAAAAAAAAYAAAAgAAAECI=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="StatType" Collapsed="true">
+    <Position X="72.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEASAAABBAACAABABAAAAAAAAYAAIAgAAAACI=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VolmType" Collapsed="true">
+    <Position X="60.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAA8AAAEAQAAABBAACAABABAAAAAAAAYAAAAgAAAECI=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PlayType" Collapsed="true">
+    <Position X="69" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAEACAAAAAAAAAABABAAACAAAAAAAAAgAAAAAI=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="StopType" Collapsed="true">
+    <Position X="74.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAABABAAAAAAAAAAAAAgAAAAAI=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_015f_3" Collapsed="true">
+    <Position X="9.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACABAAAAIAAAAASAEAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>win32lib\SHAPE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_015f_4" Collapsed="true">
+    <Position X="5.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\SHAPE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0161_2" Collapsed="true">
+    <Position X="1.25" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EISAJBIAAgUAoAAUAAACAIAEEAACQAJggCJMAQBAQAQ=</HashCode>
+      <FileName>win32lib\SOUNDINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LockedData" Collapsed="true">
+    <Position X="34.25" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAIAIAAAAAAAAAAAAAAChAAAAAABAAQAAAgAAAA=</HashCode>
+      <FileName>win32lib\SOUNDINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0163_1" Collapsed="true">
+    <Position X="72.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAEFBAAgCAAAAAAAEQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\TILE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0163_2" Collapsed="true">
+    <Position X="74.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAEFBAAgCAAAAAAAEQAAAAAAAEAAAAAAAAAEBA=</HashCode>
+      <FileName>win32lib\TILE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0168_1" Collapsed="true">
+    <Position X="34.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAEAgAAAABAAAAAAAAAAACAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>win32lib\VIDEO.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0168_2" Collapsed="true">
+    <Position X="34.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAABAAICAAgACAAAAAAAYIBwAIgADAQAoEAQQGIQAAA=</HashCode>
+      <FileName>win32lib\VIDEO.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_MODEMDEVCAPS" Collapsed="true">
+    <Position X="19.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAEAkAAEAAABAgAEAgBAACAEAABAACCIAAMAAgAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_MODEMSETTINGS" Collapsed="true">
+    <Position X="23.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAlAAgAAAAABAAAgAAACAAAAAAACCIAAMAAAAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0175_1" Collapsed="true">
+    <Position X="22.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAIAAAQAAACAAAIAAAEAAAAAAAA=</HashCode>
+      <FileName>win32lib\_FILE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="ContextType" Collapsed="true">
+    <Position X="54.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AUDIO.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VQAHandle" Collapsed="true">
+    <Position X="65.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CONQUER.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CNC_Event_Callback_Type" Collapsed="true">
+    <Position X="58.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint64" Collapsed="true">
+    <Position X="62" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int64" Collapsed="true">
+    <Position X="67.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="KeyFrameHeaderType" Collapsed="true">
+    <Position X="54.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KEYFRAME.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ShapeHeaderType" Collapsed="true">
+    <Position X="54.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KEYFRAME.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JoinStateType" Collapsed="true">
+    <Position X="54.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NETDLG.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JoinEventType" Collapsed="true">
+    <Position X="54.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NETDLG.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RetcodeType" Collapsed="true">
+    <Position X="53.25" Y="52.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QUEUE.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BitMapHeaderType" Collapsed="true">
+    <Position X="25.25" Y="56.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SCORE.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ColourList" Collapsed="true">
+    <Position X="21.25" Y="56.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WINSTUB.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PG_RGB" Collapsed="true">
+    <Position X="1.25" Y="56.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WINSTUB.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SendQueueType" Collapsed="true">
+    <Position X="49.25" Y="55.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>COMBUF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ReceiveQueueType" Collapsed="true">
+    <Position X="41.25" Y="55.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>COMBUF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IControl_Type" Collapsed="true">
+    <Position X="33.25" Y="55.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>COMPAT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CommHeaderType" Collapsed="true">
+    <Position X="17.25" Y="55.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CONNECT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ScenarioPlayerType" Collapsed="true">
+    <Position X="13.25" Y="55.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ScenarioDirType" Collapsed="true">
+    <Position X="9.25" Y="55.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ScenarioVarType" Collapsed="true">
+    <Position X="29.25" Y="54.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DoStruct" Collapsed="true">
+    <Position X="52.25" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DoInfoStruct" Collapsed="true">
+    <Position X="50.25" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="COORDINATE" Collapsed="true">
+    <Position X="60.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CELL" Collapsed="true">
+    <Position X="56.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TARGET" Collapsed="true">
+    <Position X="60.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TheaterDataType" Collapsed="true">
+    <Position X="50.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GroundType" Collapsed="true">
+    <Position X="50.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PathType" Collapsed="true">
+    <Position X="50.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WaypointType" Collapsed="true">
+    <Position X="50.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameType" Collapsed="true">
+    <Position X="50.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CommProtocolType" Collapsed="true">
+    <Position X="50.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SerialSettingsType" Collapsed="true">
+    <Position X="5.25" Y="53.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SerialPacketType" Collapsed="true">
+    <Position X="50.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GlobalPacketType" Collapsed="true">
+    <Position X="50.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MPlayerScoreType" Collapsed="true">
+    <Position X="49.25" Y="48.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="KeyFrameType" Collapsed="true">
+    <Position X="45.25" Y="52.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NewConfigType" Collapsed="true">
+    <Position X="37.25" Y="52.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SpecialDialogType" Collapsed="true">
+    <Position X="25.25" Y="51.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CCPaletteType" Collapsed="true">
+    <Position X="21.25" Y="51.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SelectedObjectsType" Collapsed="true">
+    <Position X="46.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EXTERNS.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TrapObjectType" Collapsed="true">
+    <Position X="1.25" Y="51.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EXTERNS.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TLucentType" Collapsed="true">
+    <Position X="41.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FUNCTION.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NodeNameType" Collapsed="true">
+    <Position X="33.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FUNCTION.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NetNumType" Collapsed="true">
+    <Position X="58.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NetNodeType" Collapsed="true">
+    <Position X="56.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UserID" Collapsed="true">
+    <Position X="63.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IPXHeaderType" Collapsed="true">
+    <Position X="17.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ECBType" Collapsed="true">
+    <Position X="13.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RMIType" Collapsed="true">
+    <Position X="9.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPX.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GlobalHeaderType" Collapsed="true">
+    <Position X="46.25" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPXGCONN.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SerialHeaderType" Collapsed="true">
+    <Position X="46.25" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NULLCONN.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SerialCRCType" Collapsed="true">
+    <Position X="46.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NULLCONN.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameOptionsType" Collapsed="true">
+    <Position X="29.25" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SESSION.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TeamMissionStruct" Collapsed="true">
+    <Position X="46.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TEAMTYPE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MemChain_Type" Collapsed="true">
+    <Position X="46.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\MEM.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MemPool_Type" Collapsed="true">
+    <Position X="46.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\MEM.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SysAnimHeaderType" Collapsed="true">
+    <Position X="5.25" Y="48.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WSA.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WSA_FileHeaderType" Collapsed="true">
+    <Position X="37.25" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WSA.CPP</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AUDHeaderType" Collapsed="true">
+    <Position X="25.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Sample_Type" Collapsed="true">
+    <Position X="21.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Score_Type" Collapsed="true">
+    <Position X="1.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SFX_Type" Collapsed="true">
+    <Position X="42.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTDRAW" Collapsed="true">
+    <Position X="33.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTDRAW2" Collapsed="true">
+    <Position X="42.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTDRAWSURFACE" Collapsed="true">
+    <Position X="42.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTDRAWSURFACE2" Collapsed="true">
+    <Position X="17.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTDRAWPALETTE" Collapsed="true">
+    <Position X="42.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTDRAWCLIPPER" Collapsed="true">
+    <Position X="42.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDFXROP" Collapsed="true">
+    <Position X="56.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDSURFACEDESC" Collapsed="true">
+    <Position X="8.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDENUMCALLBACKA" Collapsed="true">
+    <Position X="70.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDENUMCALLBACKW" Collapsed="true">
+    <Position X="42.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDENUMCALLBACK" Collapsed="true">
+    <Position X="42.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HRESULT" Collapsed="true">
+    <Position X="65.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDENUMMODESCALLBACK" Collapsed="true">
+    <Position X="72.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDENUMSURFACESCALLBACK" Collapsed="true">
+    <Position X="74.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDCOLORKEY" Collapsed="true">
+    <Position X="15.25" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDCOLORKEY" Collapsed="true">
+    <Position X="15.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDBLTFX" Collapsed="true">
+    <Position X="32.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDBLTFX" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDSCAPS" Collapsed="true">
+    <Position X="30.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDSCAPS" Collapsed="true">
+    <Position X="30.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDCAPS" Collapsed="true">
+    <Position X="31.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDCAPS" Collapsed="true">
+    <Position X="31.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDPIXELFORMAT" Collapsed="true">
+    <Position X="30.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDPIXELFORMAT" Collapsed="true">
+    <Position X="30.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDOVERLAYFX" Collapsed="true">
+    <Position X="30.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDOVERLAYFX" Collapsed="true">
+    <Position X="30.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDBLTBATCH" Collapsed="true">
+    <Position X="4.25" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDDBLTBATCH" Collapsed="true">
+    <Position X="4.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPCLIPPERCALLBACK" Collapsed="true">
+    <Position X="69" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPSURFACESTREAMINGCALLBACK" Collapsed="true">
+    <Position X="74.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDSURFACEDESC" Collapsed="true">
+    <Position X="11.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTPLAY" Collapsed="true">
+    <Position X="13.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPID" Collapsed="true">
+    <Position X="62" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDPID" Collapsed="true">
+    <Position X="67.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPCAPS" Collapsed="true">
+    <Position X="26.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDPCAPS" Collapsed="true">
+    <Position X="26.25" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPSESSIONDESC" Collapsed="true">
+    <Position X="22.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDPSESSIONDESC" Collapsed="true">
+    <Position X="22.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDPENUMDPCALLBACK" Collapsed="true">
+    <Position X="62" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDPENUMSESSIONSCALLBACK" Collapsed="true">
+    <Position X="65.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDPENUMPLAYERSCALLBACK" Collapsed="true">
+    <Position X="63.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPMSG_ADDPLAYER" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPMSG_ADDGROUP" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPMSG_GROUPADD" Collapsed="true">
+    <Position X="15.25" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPMSG_GROUPDELETE" Collapsed="true">
+    <Position X="15.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPMSG_DELETEPLAYER" Collapsed="true">
+    <Position X="9.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPMSG_INVITE" Collapsed="true">
+    <Position X="42.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DPMSG_GENERIC" Collapsed="true">
+    <Position X="29.25" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTXSETUP" Collapsed="true">
+    <Position X="60.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSETUP.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTXDEVICEDRIVERSETUP" Collapsed="true">
+    <Position X="58.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSETUP.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTSOUND" Collapsed="true">
+    <Position X="41.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDIRECTSOUNDBUFFER" Collapsed="true">
+    <Position X="11.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPLPDIRECTSOUNDBUFFER" Collapsed="true">
+    <Position X="11.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DSCAPS" Collapsed="true">
+    <Position X="27.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDSCAPS" Collapsed="true">
+    <Position X="26.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DSBCAPS" Collapsed="true">
+    <Position X="4.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDSBCAPS" Collapsed="true">
+    <Position X="7.25" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DSBUFFERDESC" Collapsed="true">
+    <Position X="27.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDSBUFFERDESC" Collapsed="true">
+    <Position X="24.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPLPVOID" Collapsed="true">
+    <Position X="72.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDSENUMCALLBACKW" Collapsed="true">
+    <Position X="70.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDSENUMCALLBACKA" Collapsed="true">
+    <Position X="69" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HFASTFILE" Collapsed="true">
+    <Position X="63.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\FASTFILE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FileFlags_Type" Collapsed="true">
+    <Position X="5.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\FILE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FileInitErrorType" Collapsed="true">
+    <Position X="38.25" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\FILE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FileErrorType" Collapsed="true">
+    <Position X="38.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\FILE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FileDataType" Collapsed="true">
+    <Position X="38.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\FILE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RGB" Collapsed="true">
+    <Position X="25.25" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\FILEPCX.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PCX_HEADER" Collapsed="true">
+    <Position X="38.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\FILEPCX.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IconSetType" Collapsed="true">
+    <Position X="21.25" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\ICONCACH.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PicturePlaneType" Collapsed="true">
+    <Position X="38.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\IFF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CompressionType" Collapsed="true">
+    <Position X="38.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\IFF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CompHeaderType" Collapsed="true">
+    <Position X="1.25" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\IFF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WWKey_Type" Collapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\KEYBOARD.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SEGSEL" Collapsed="true">
+    <Position X="34.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\PLAYCD.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MakeShapeFlags_Type" Collapsed="true">
+    <Position X="17.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\SHAPE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ShapeFlags_Type" Collapsed="true">
+    <Position X="13.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\SHAPE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Shape_Type" Collapsed="true">
+    <Position X="9.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\SHAPE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ShapeBlock_Type" Collapsed="true">
+    <Position X="5.25" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\SHAPE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SCompressType" Collapsed="true">
+    <Position X="30.25" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\SOUNDINT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SampleTrackerType" Collapsed="true">
+    <Position X="1.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\SOUNDINT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LockedDataType" Collapsed="true">
+    <Position X="34.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\SOUNDINT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VesaInfoType" Collapsed="true">
+    <Position X="35.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\VIDEO.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VesaModeInfoType" Collapsed="true">
+    <Position X="34.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\VIDEO.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MODEMDEVCAPS" Collapsed="true">
+    <Position X="16.25" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PMODEMDEVCAPS" Collapsed="true">
+    <Position X="22.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPMODEMDEVCAPS" Collapsed="true">
+    <Position X="19.25" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MODEMSETTINGS" Collapsed="true">
+    <Position X="26.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PMODEMSETTINGS" Collapsed="true">
+    <Position X="23.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPMODEMSETTINGS" Collapsed="true">
+    <Position X="23.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WSAType" Collapsed="true">
+    <Position X="37.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WSA.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WSAOpenType" Collapsed="true">
+    <Position X="8.25" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WSA.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ColorType" Collapsed="true">
+    <Position X="34.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WWSTD.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WindowIndexType" Collapsed="true">
+    <Position X="26.25" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WW_WIN.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FileHandleType" Collapsed="true">
+    <Position X="22.25" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\_FILE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Interface Name="IDirectDraw" Collapsed="true">
+    <Position X="33.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAABQAAiBJQAAgACAAAECAIIggAAQAABAIJgAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDirectDraw2" Collapsed="true">
+    <Position X="42.25" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAABQAAiBJQAAgACAAAECAIIggAAQAABAIJgIAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDirectDrawPalette" Collapsed="true">
+    <Position X="42.25" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAABQAAAAAAAAACgAAAgAAAAAAAABAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDirectDrawClipper" Collapsed="true">
+    <Position X="42.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABABQAAAiAAAAAAAAAAgIAAAAAABBAAAAA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDirectDrawSurface" Collapsed="true">
+    <Position X="42.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAwEABABCEQBQoAAAACIAkDBABYgQCgIBAAAFAIAQA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDirectDrawSurface2" Collapsed="true">
+    <Position X="17.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAwEABABCEQBQoAAAACIAkjBABcgQCgIBAAAFAIAQA=</HashCode>
+      <FileName>win32lib\DDRAW.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDirectPlay" Collapsed="true">
+    <Position X="13.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEEAAAIAJQAAEEAABQACQAAAgAwwAAAAIBCACKU=</HashCode>
+      <FileName>win32lib\DPLAY.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDirectSound" Collapsed="true">
+    <Position X="41.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAADQAAAAAAAAACAAAggAAQAABAgJAAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDirectSoundBuffer" Collapsed="true">
+    <Position X="11.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIQAAAAAAgABQACCAACIAAGIgAAiACAoAAAABCAAAA=</HashCode>
+      <FileName>win32lib\DSOUND.H</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="__unnamed_enum_000a_1" Collapsed="true">
+    <Position X="54.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAABA=</HashCode>
+      <FileName>AUDIO.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SAMState" Collapsed="true">
+    <Position X="62" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAABAAQAEAAAAAAAAAQAAACAAAAAAAEEAAAAAAI=</HashCode>
+      <FileName>BUILDING.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0046_1" Collapsed="true">
+    <Position X="56.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAABA=</HashCode>
+      <FileName>DLLInterface.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FacingType" Collapsed="true">
+    <Position X="60.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAABAgAgAEAAQAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_005d_1" Collapsed="true">
+    <Position X="58.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAgAgAEAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FINDPATH.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00a6_1" Collapsed="true">
+    <Position X="60.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAABBAACAAAAAAAASAEMBAAAAACAAAAIAAAAgA=</HashCode>
+      <FileName>MAPEDTM.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00b9_1" Collapsed="true">
+    <Position X="54.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAkBAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>NETDLG.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00b9_2" Collapsed="true">
+    <Position X="54.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAABAAAAAAAAAAIAEAAAABAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>NETDLG.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RetcodeEnum" Collapsed="true">
+    <Position X="53.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQIAACQAAAAAAAAgACAAAAgABAAEAAAAAA=</HashCode>
+      <FileName>QUEUE.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ButtonNumberType" Collapsed="true">
+    <Position X="65.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAIAJAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SIDEBAR.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00fa_1" Collapsed="true">
+    <Position X="62" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAACAAAAIggAAAAAAAAAAQAAEAAAAAAAAA=</HashCode>
+      <FileName>STATS.CPP</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MenuIndexType" Collapsed="true">
+    <Position X="70.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQBAAAIAAAACAAAQAAAAAAAAACAAEAAAAAAAAAAA=</HashCode>
+      <FileName>COMPAT.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RTTIType" Collapsed="true">
+    <Position X="60.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAAQgIgACAAAIAAAQAEAAAQBAAYAgEABAIggAgACA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DiffType" Collapsed="true">
+    <Position X="63.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAIQABAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProdFailType" Collapsed="true">
+    <Position X="72.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAABAAAAAAAAAAgAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpecialWeaponType" Collapsed="true">
+    <Position X="74.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MoveType" Collapsed="true">
+    <Position X="58.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAQAiEAAQAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ThemeType" Collapsed="true">
+    <Position X="56.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQiAGABAgCASogAAAKAAgoQUEEAIUAgAIJBCASCyQ=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ThreatType" Collapsed="true">
+    <Position X="58.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEQAEAAAAAgBAAAAEAECACAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FireErrorType" Collapsed="true">
+    <Position X="62" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAARJAAAAAAQAAAAAAIAAQAQAAgAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CloakType" Collapsed="true">
+    <Position X="69" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgABAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VisualType" Collapsed="true">
+    <Position X="65.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAAAAAAAAAAAAAAAAAIAAAAAACQAABAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MissionType" Collapsed="true">
+    <Position X="72.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgBQAEBAAAAgAACAAQQCCAAIBAAAAQQBEAAEIQAQog=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BStateType" Collapsed="true">
+    <Position X="62" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAAAhIAAAAAAAAACAEAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ActionType" Collapsed="true">
+    <Position X="67.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBIAgBAABADEACAAQCIgAAAiQAQAgABAAAAACIAAAAI=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ResultType" Collapsed="true">
+    <Position X="58.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAMAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConcreteEnum" Collapsed="true">
+    <Position X="72.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAgAIQCABAAAgQAAAAAEAAIAAwAIAAAhAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MPHType" Collapsed="true">
+    <Position X="60.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgAAAIAEAgAAAACAACIAAgAAAIAAEQAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VolType" Collapsed="true">
+    <Position X="69" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEAAAAAAAAAAAAAEAgIAAAIAAwCAAAABAQCAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HousesType" Collapsed="true">
+    <Position X="70.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAIAAAAAAAAAAIEAAAAAgAQAACAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlayerColorType" Collapsed="true">
+    <Position X="70.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAkQAAAAAAAAIAAAAAAACAAEIAAAAAE=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ScenarioPlayerEnum" Collapsed="true">
+    <Position X="13.25" Y="53.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAABAAAAAAAAAAICAAAAAAAQAAAAAAAAAAQACAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ScenarioDirEnum" Collapsed="true">
+    <Position X="9.25" Y="53.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAQAAAAAAAAAAQBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ScenarioVarEnum" Collapsed="true">
+    <Position X="29.25" Y="52.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAFgBAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LayerType" Collapsed="true">
+    <Position X="62" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAgBABAAAAAAAAAABAAAAAABAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BulletType" Collapsed="true">
+    <Position X="63.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQhASAAAAGAAAECIAAQAAhIAAACIAAgAACAAAAAAQQ=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StructType" Collapsed="true">
+    <Position X="62" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>nw8AARBIKAQYBBAARIAAQAAAAAIAgwAIAEAgxABQAuA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OverlayType" Collapsed="true">
+    <Position X="67.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAARAAA4AAAIBAIJIIEEAIAQAEACgAQggABAAAAAWCA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InfantryType" Collapsed="true">
+    <Position X="74.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQACAAACCAAAAAAAKABgAAEABAoUAAAAAAAKAAAAgQI=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnitType" Collapsed="true">
+    <Position X="62" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCCAEAAgBAAAAACCABAEAAAGAAAASEQQAIAAAAgI=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AircraftType" Collapsed="true">
+    <Position X="69" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAIAABgAAACAAAAACAAAAAAIAAAI=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TemplateType" Collapsed="true">
+    <Position X="69" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAJAAQEEAAEAgBuwX/hlwCIDhH8gawgEAAMT9PwE=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TerrainType" Collapsed="true">
+    <Position X="70.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQCAADwPwAAAADfAAAAAAAEgAAAMAACgWAACABAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmudgeType" Collapsed="true">
+    <Position X="69" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAASAQZAAAADAIBgAAAAAAAgAAAAAAAgAAAAAgAQ=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AnimType" Collapsed="true">
+    <Position X="70.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KkFnQACACRqHBAQhRHAEKgR4AAEE5OlpACoTngg8EB0=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DoType" Collapsed="true">
+    <Position X="72.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kQgAIAJAAKABAQECAAEAAAAQEAhAgIWIBAABBogABRA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RadioMessageType" Collapsed="true">
+    <Position X="56.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAUkAAEQAigAAFAACAAICDjACEEAEgUABAAAEAiCI=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SelectEnum" Collapsed="true">
+    <Position X="63.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAACACEAAAAAAAAAAAAAAAIAAACAAQAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PipEnum" Collapsed="true">
+    <Position X="69" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAQAAAAAAAAAIAAAAGAIAAAAAgAAAIAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RadarEnum" Collapsed="true">
+    <Position X="74.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MouseType" Collapsed="true">
+    <Position X="56.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAAKhAETAAIAgAAAAAIQAUABEAIUIASSACQEiAAI=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BoxStyleEnum" Collapsed="true">
+    <Position X="56.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAgQQAAAAEAAAACgAAAAAAABAIAAAABIAQAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WarheadType" Collapsed="true">
+    <Position X="72.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAEAEAAAAAAAAAAABAAAAAAAEAAAAAEiAmBAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WeaponType" Collapsed="true">
+    <Position X="74.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQMRpAAIQAAABAgsAABgAAAAAAEQgBAYDAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ArmorType" Collapsed="true">
+    <Position X="72.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAkBAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TextPrintType" Collapsed="true">
+    <Position X="72.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAoAAgAQAAAAAEAAAAAIAWAIAQDAKCQAAABAQAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LandType" Collapsed="true">
+    <Position X="60.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEACAAAAAAAAAAAAgAAAAAAQAAAAAACAAAAIABA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheaterType" Collapsed="true">
+    <Position X="74.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAIACAQAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BSizeType" Collapsed="true">
+    <Position X="60.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADARBpBAAAAAAAAAAAAAAAAAAAAAADAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MarkType" Collapsed="true">
+    <Position X="67.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAgAAAAAAAAARAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WindowNumberType" Collapsed="true">
+    <Position X="58.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABBAAAAAAAAABAAAAEAAAgAAAAIAIAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DirType" Collapsed="true">
+    <Position X="65.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAMACCAIAAAAAAAIAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpeedType" Collapsed="true">
+    <Position X="56.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAAAAAAAAAQABAgAAAEAAAAgAAAACAAABAEAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VocType" Collapsed="true">
+    <Position X="67.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UREStC4gFNYxUWBkWIDCOqEoTsQyKABDBAIQumFaRmA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VoxType" Collapsed="true">
+    <Position X="70.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEACISECAYYAIsAIAKEJhUMQEARAAADAQAEgGAQIQE=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SourceType" Collapsed="true">
+    <Position X="70.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAYAAAgAAACgAAAEAAEAAEgQAAAQAAAAQAAIA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WaypointEnum" Collapsed="true">
+    <Position X="50.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAEAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameEnum" Collapsed="true">
+    <Position X="50.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAEAAEAAAAQAAAAAAABQ=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CommProtocolEnum" Collapsed="true">
+    <Position X="50.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAEACAAAAAAAAAAAAAAAAAAAABEAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DetectPortType" Collapsed="true">
+    <Position X="58.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAIA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DialStatusType" Collapsed="true">
+    <Position X="62" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABQAAAAAAAAAAAAAAACBAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DialMethodType" Collapsed="true">
+    <Position X="60.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CallWaitStringType" Collapsed="true">
+    <Position X="67.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SerialCommandType" Collapsed="true">
+    <Position X="65.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAQAACAAcAAUAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ModemGameType" Collapsed="true">
+    <Position X="74.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAEBAAAAAAAAAQAAAEAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NetCommandType" Collapsed="true">
+    <Position X="63.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAIAAAAAAACAAgAQEEAAAgBAABAAAAAgAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_003e_17" Collapsed="true">
+    <Position X="45.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAIAAAACACgAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_003e_19" Collapsed="true">
+    <Position X="25.25" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAQAAAAAAAABAAAAQAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_003e_20" Collapsed="true">
+    <Position X="21.25" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEAACAAQAAAgABAAAAAAAgUAAgAAAAAAAACEACA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OptionControlType" Collapsed="true">
+    <Position X="65.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAUQABAAQSAAAgAJAAAFAAEAAABAAAIAQQAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ZoneType" Collapsed="true">
+    <Position X="60.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAACAAAEAEAEAAAAABAAAiAAAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MZoneType" Collapsed="true">
+    <Position X="62" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAMAAAAAAAAAAAAAAAAAAEgCAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StateType" Collapsed="true">
+    <Position X="58.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgCAAABAAAAAAAABAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UrgencyType" Collapsed="true">
+    <Position X="63.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAMAAAABCAAAAIAAQAAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StrategyType" Collapsed="true">
+    <Position X="60.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAkFAAACAAQAAAAAAYAARAAAAAAAAAgAAAA=</HashCode>
+      <FileName>DEFINES.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameStateRequestEnum" Collapsed="true">
+    <Position X="67.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAwAAAAABAAABQAAAQAAYAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CnCTheaterType" Collapsed="true">
+    <Position X="70.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAACAAAAIAAAAAAAACAABAAgAAAAIA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DllObjectTypeEnum" Collapsed="true">
+    <Position X="69" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACBAAAAgIAAAEAAgAAAIQAAAAAAACAMEAMBA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DllActionTypeEnum" Collapsed="true">
+    <Position X="67.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAEAAACCAAAABAQCAACAAAAAAAAAIAAySQAIABA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DllSuperweaponTypeEnum" Collapsed="true">
+    <Position X="70.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAAQAAAEABYAAEAUAAAgAAAAAABAAAgAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SidebarRequestEnum" Collapsed="true">
+    <Position X="67.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQAAAgAAAQCgABAEgAAAAAAAAAAAAQAAABAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperWeaponRequestEnum" Collapsed="true">
+    <Position X="65.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ControlGroupRequestEnum" Collapsed="true">
+    <Position X="74.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAABAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InputRequestEnum" Collapsed="true">
+    <Position X="56.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAQCAAAAAAAAIAAiAAIAAggAAYAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StructureRequestEnum" Collapsed="true">
+    <Position X="63.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAAAAABAAAAACAAABAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnitRequestEnum" Collapsed="true">
+    <Position X="60.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAABAAAAAAAAIAAAAAAAAAAAAgAgAAIAAAAgA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameRequestEnum" Collapsed="true">
+    <Position X="63.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpecialKeyRequestEnum" Collapsed="true">
+    <Position X="72.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EventCallbackType" Collapsed="true">
+    <Position X="56.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACEAAAAhQAKAAAAwAAAAAAAQAgAAAAAAAAAAAgAAI=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EventCallbackMessageEnum" Collapsed="true">
+    <Position X="74.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameRequestType" Collapsed="true">
+    <Position X="65.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DebugRequestEnum" Collapsed="true">
+    <Position X="56.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAEAAAQIAgAAAAACABAAAgAIg=</HashCode>
+      <FileName>DLLInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ImpactType" Collapsed="true">
+    <Position X="72.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAA=</HashCode>
+      <FileName>FLY.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MapEdit1Enum" Collapsed="true">
+    <Position X="63.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkQBACAAEQDEACAIMAIAAKAgQAAAABAECAgAQCYAAAA=</HashCode>
+      <FileName>MAPEDIT.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MapEditButtonIDEnum" Collapsed="true">
+    <Position X="65.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAgAAIIIAACCAAAgAAAAAAAIAAAAACAAAAAAA=</HashCode>
+      <FileName>MAPEDIT.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="KindType" Collapsed="true">
+    <Position X="58.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACIAABAAAAAQAQAAAAAAAAABMABAAAAgAAAAAg=</HashCode>
+      <FileName>TARGET.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TeamMissionType" Collapsed="true">
+    <Position X="67.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAEACAJAAAAABAAAAAAgSAYAAAAAAAAQAQBAAAI=</HashCode>
+      <FileName>TEAMTYPE.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EventType" Collapsed="true">
+    <Position X="58.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACABAABACAAAggIAEAgAAAACACQAUBiAACAGAAAQA=</HashCode>
+      <FileName>TRIGGER.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MemoryFlagType" Collapsed="true">
+    <Position X="69" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAEgAAAAAQABQCAAAAAAAAAAQAAIAAAACEAAAAAA=</HashCode>
+      <FileName>WWALLOC.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0129_2" Collapsed="true">
+    <Position X="21.25" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQBAAEAAAQAEAAEAAAQEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>win32lib\AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0129_3" Collapsed="true">
+    <Position X="1.25" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAgAgAEAAAAAAAAAACFBAAAgAAjUAAAAAAAIAAA=</HashCode>
+      <FileName>win32lib\AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0129_4" Collapsed="true">
+    <Position X="42.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAgAIAAAAAIAAAEBIAAAAAAoBAAAAAAgIAAgEAAAAA=</HashCode>
+      <FileName>win32lib\AUDIO.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_013c_1" Collapsed="true">
+    <Position X="5.25" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAQAAIAAAAAAAAgAAAABAAQAAIAAAAAAEAA=</HashCode>
+      <FileName>win32lib\FILE.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_013c_2" Collapsed="true">
+    <Position X="38.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAIAAIAAAAAAAAAEEAAAAAAAAAgAQAAAAAAAA=</HashCode>
+      <FileName>win32lib\FILE.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_013c_3" Collapsed="true">
+    <Position X="38.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEgBAQAAAAAAEAAAAQKEAAAJAIAAgAgAIAQAEAI=</HashCode>
+      <FileName>win32lib\FILE.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GBC_Enum" Collapsed="true">
+    <Position X="69" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAACAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>win32lib\GBUFFER.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0148_1" Collapsed="true">
+    <Position X="38.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\IFF.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0148_2" Collapsed="true">
+    <Position X="38.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQAAAACAAACAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\IFF.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_014b_1" Collapsed="true">
+    <Position X="38.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAQCAAAAAAAAiAAAAABAAAAAAAI=</HashCode>
+      <FileName>win32lib\KEYBOARD.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_014b_2" Collapsed="true">
+    <Position X="63.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Dvl/+f///6v//3+B9PF/Oa7L+v//+H9Up8jQuFQBTDQ=</HashCode>
+      <FileName>win32lib\KEYBOARD.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0150_1" Collapsed="true">
+    <Position X="65.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAQAAAQACAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>win32lib\MEMFLAG.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_015f_1" Collapsed="true">
+    <Position X="17.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>win32lib\SHAPE.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_015f_2" Collapsed="true">
+    <Position X="13.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAEAEAAACAhAAIAEAAAAAAAAAgCAFAAggAAQAA=</HashCode>
+      <FileName>win32lib\SHAPE.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0161_1" Collapsed="true">
+    <Position X="30.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>win32lib\SOUNDINT.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BaseTimerEnum" Collapsed="true">
+    <Position X="74.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\TIMER.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WinCommDialMethodType" Collapsed="true">
+    <Position X="56.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WINCOMM.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_016e_1" Collapsed="true">
+    <Position X="34.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAABAABEAAAAAA=</HashCode>
+      <FileName>win32lib\WSA.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_016e_2" Collapsed="true">
+    <Position X="8.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAABAAAAAAAAABgEAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>win32lib\WSA.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0172_1" Collapsed="true">
+    <Position X="34.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIBEAgEAAAgAQIAAEAAAgABAAgAAEAAAEAAAAAAgAAA=</HashCode>
+      <FileName>win32lib\WWSTD.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0173_1" Collapsed="true">
+    <Position X="26.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAIAAGAAAAAAAAAAEAABAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>win32lib\WW_WIN.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

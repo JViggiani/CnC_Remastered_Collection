@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractTypeClass" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAEAAAAIAAAAAEQAAAAAAAAAgAAQAAAAAAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectTypeClass" Collapsed="true">
+    <Position X="24.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>SAAAAKkAAAABJAQAAAAAAYJABABAAAAAMAAAAS0AQQA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamTypeClass" Collapsed="true">
+    <Position X="26.75" Y="4.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TeamTypeClass::TeamTypeClassEnums">
+        <TypeIdentifier>
+          <NewMemberFileName>TEAMTYPE.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>UsGAgImARCCEACAAMAKIBQwAwoEAAAQAoAICACAKCAM=</HashCode>
+      <FileName>TEAMTYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletTypeClass" Collapsed="true">
+    <Position X="20.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>wIAABAAAAACESgEAAABkAAIEAABABEAAgQBSAgAAACI=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainTypeClass" Collapsed="true">
+    <Position X="24.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>wCMAAYAAAAABAIAgACJAAUIAAIBAAAAAAQASgIAAAAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateTypeClass" Collapsed="true">
+    <Position X="30.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>wAEAAIAABAAAAIAAAABAAUIAAIBBAAAAAwASgAAAEAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimTypeClass" Collapsed="true">
+    <Position X="28.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>wAIKAACAICAAgAEEAABAAAIACABIAQAAhQwSAwABAoA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechnoTypeClass" Collapsed="true">
+    <Position X="19" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACQAggQEUAFCAAABAEABACAAgQAQAJQAEBAAiAAUY=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OverlayTypeClass" Collapsed="true">
+    <Position X="26.75" Y="6" Width="1.75" />
+    <InheritanceLine Type="ObjectTypeClass" FixedToPoint="true">
+      <Path>
+        <Point X="25.625" Y="5.441" />
+        <Point X="25.625" Y="5.7" />
+        <Point X="27.562" Y="5.7" />
+        <Point X="27.562" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>wAEABIBAQEAACIAAAABAAWIBAIJAgAAAQwBSAAAAAAI=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmudgeTypeClass" Collapsed="true">
+    <Position X="22.75" Y="6" Width="1.75" />
+    <InheritanceLine Type="ObjectTypeClass" FixedToPoint="true">
+      <Path>
+        <Point X="25.625" Y="5.441" />
+        <Point X="25.625" Y="5.7" />
+        <Point X="23.562" Y="5.7" />
+        <Point X="23.562" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>wAEAAIAQRAABAoAAAABAAUIAAIBBAAAAAQASAAAAAAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildingTypeClass" Collapsed="true">
+    <Position X="21.75" Y="7.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BuildingTypeClass::BuildingTypeClassRepairEnums">
+        <TypeIdentifier>
+          <NewMemberFileName>TYPE.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="BuildingTypeClass::AnimControlType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TYPE.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="BuildingTypeClass::__unnamed_struct_011d_1">
+        <TypeIdentifier>
+          <NewMemberFileName>TYPE.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <InheritanceLine Type="TechnoTypeClass" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.75" Y="6.691" />
+        <Point X="19.75" Y="6.95" />
+        <Point X="22.562" Y="6.95" />
+        <Point X="22.562" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>6QUBKIAABOEBgCAAoABCAUICANBGgAABBxATAQAAQAQ=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitTypeClass" Collapsed="true">
+    <Position X="17.75" Y="7.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="UnitTypeClass::UnitTypeClassRepairEnums">
+        <TypeIdentifier>
+          <NewMemberFileName>TYPE.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>4AEAAIRAAEAAEgCAAEDAAQInAIBAAQAAA0AzAADBUAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfantryTypeClass" Collapsed="true">
+    <Position X="15.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>wAEAAIgAAAEAAAAQABBAAVIIAIBAAEAIAQASAAAAIIA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AircraftTypeClass" Collapsed="true">
+    <Position X="19.75" Y="7.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="AircraftTypeClass::UnitTypeClassRepairEnums">
+        <TypeIdentifier>
+          <NewMemberFileName>TYPE.H</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>wAEgIIBAAEAhCgAAAAFAAQIIAIBAAAAAAQATgAAAQAA=</HashCode>
+      <FileName>TYPE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

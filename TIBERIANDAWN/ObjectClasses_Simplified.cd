@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnitClass" Collapsed="true">
+    <Position X="20.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CYDQodCEQwS1QCIAMKFwgQVAAhJECChAQEASCCiIEAk=</HashCode>
+      <FileName>UNIT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TurretClass" Collapsed="true">
+    <Position X="20.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAQgAAAAAAAQASAAAAAAAAAACEBAADCAQAA=</HashCode>
+      <FileName>TURRET.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainClass" Collapsed="true">
+    <Position X="23" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="ObjectClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="4.441" />
+        <Point X="26.25" Y="5.625" />
+        <Point X="24.5" Y="5.625" />
+        <Point X="24.5" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="StageClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.688" Y="5.562" />
+        <Point X="22.688" Y="5.875" />
+        <Point X="23" Y="5.875" />
+        <Point X="23" Y="6.25" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.479" Y="0.042" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>I4CAgIAFQASMAGAAogIUAURAAgTACCAAQACSACAFAAE=</HashCode>
+      <FileName>TERRAIN.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateClass" Collapsed="true">
+    <Position X="30.75" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="ObjectClass" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="27.5" Y="4.441" />
+        <Point X="27.5" Y="5.442" />
+        <Point X="31.5" Y="5.442" />
+        <Point X="31.5" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAgIAAQACEACAAIEIAAQQAAgQBAAEAAACSACAAAAE=</HashCode>
+      <FileName>TEMPLATE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechnoClass" Collapsed="true">
+    <Position X="20.5" Y="9.75" Width="1.5" />
+    <InheritanceLine Type="RadioClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="27.938" Y="8.191" />
+        <Point X="27.938" Y="9.38" />
+        <Point X="21.938" Y="9.38" />
+        <Point X="21.938" Y="9.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.229" Y="0.281" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="FlasherClass" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="17" Y="5.562" />
+        <Point X="17" Y="8.94" />
+        <Point X="21.062" Y="8.94" />
+        <Point X="21.062" Y="9.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.181" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="StageClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.625" Y="5.562" />
+        <Point X="21.625" Y="6.253" />
+        <Point X="21.625" Y="6.253" />
+        <Point X="21.625" Y="9.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.189" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="CargoClass" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.75" Y="5.562" />
+        <Point X="18.75" Y="8.733" />
+        <Point X="21.375" Y="8.733" />
+        <Point X="21.375" Y="9.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.142" Y="0.312" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="DoorClass" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.25" Y="5.562" />
+        <Point X="15.25" Y="9.151" />
+        <Point X="20.812" Y="9.151" />
+        <Point X="20.812" Y="9.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.15" Y="0.281" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="CrewClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.5" Y="5.562" />
+        <Point X="13.5" Y="9.371" />
+        <Point X="20.5" Y="9.371" />
+        <Point X="20.5" Y="9.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.193" Y="0.048" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>KanlaAKFYwXFSqNRtYJwQQ1aAL4FFInSQGKkQDCNQCk=</HashCode>
+      <FileName>TECHNO.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamClass" Collapsed="true">
+    <Position X="19.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="AbstractClass" FixedFromPoint="true">
+      <Path>
+        <Point X="24.062" Y="3.062" />
+        <Point X="24.062" Y="3.375" />
+        <Point X="20.25" Y="3.375" />
+        <Point X="20.25" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AwKEgIJhIIGADIIIAGMABSQIAgQqQUEAAAIyqCANICE=</HashCode>
+      <FileName>TEAM.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TarComClass" Collapsed="true">
+    <Position X="20.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAAAQAAAAAAAAAAUAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>TARCOM.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageClass" Collapsed="true">
+    <Position X="21.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAABAAEgQAAAAAAQAAAQACAACAAAEAAAgAACAAAAA=</HashCode>
+      <FileName>STAGE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmudgeClass" Collapsed="true">
+    <Position X="29" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="ObjectClass" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="27.25" Y="4.441" />
+        <Point X="27.25" Y="5.63" />
+        <Point X="29.75" Y="5.63" />
+        <Point X="29.75" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAgIAAQACEACAEIAIAAQQQAAQAACAAAACSBCAABAE=</HashCode>
+      <FileName>SMUDGE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RadioClass" Collapsed="true">
+    <Position X="27.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAAAAAQAQAAAAAAKAQAAEAAAACCAQAAAASAAAAA=</HashCode>
+      <FileName>RADIO.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OverlayClass" Collapsed="true">
+    <Position X="24.75" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="ObjectClass" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="26.5" Y="4.441" />
+        <Point X="26.5" Y="5.799" />
+        <Point X="25.5" Y="5.799" />
+        <Point X="25.5" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAgIAAQBCEACAAIAIAAQUIAAQAAAAAAACSBCAAAAE=</HashCode>
+      <FileName>OVERLAY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectClass" Collapsed="true">
+    <Position X="26" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="AbstractClass" FixedFromPoint="true">
+      <Path>
+        <Point X="25.5" Y="3.062" />
+        <Point X="25.5" Y="3.375" />
+        <Point X="26.75" Y="3.375" />
+        <Point X="26.75" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AoRQIIAGQIUBU3IBAgwar8AQAqbAICGAYBG2SToMACE=</HashCode>
+      <FileName>OBJECT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MissionClass" Collapsed="true">
+    <Position X="27.25" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="ObjectClass" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="27" Y="4.441" />
+        <Point X="27" Y="5.832" />
+        <Point X="28" Y="5.832" />
+        <Point X="28" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IQAAQRRkQCQRAAAIgIgCAYAAADAABCAAMMAARCEMEAg=</HashCode>
+      <FileName>MISSION.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfantryClass" Collapsed="true">
+    <Position X="22.5" Y="14" Width="1.5" />
+    <InheritanceLine Type="FootClass" FixedFromPoint="true">
+      <Path>
+        <Point X="21.688" Y="12.941" />
+        <Point X="21.688" Y="13.625" />
+        <Point X="23.25" Y="13.625" />
+        <Point X="23.25" Y="14" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AYDQs8AkYYWHQCIEMIIwQQQCAxYECADAQMASCCKAAAk=</HashCode>
+      <FileName>INFANTRY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuseClass" Collapsed="true">
+    <Position X="16" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAAAAAAAIBAAAAAAAQAAAAAABAIAAIQAACAEgAA=</HashCode>
+      <FileName>FUSE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FootClass" Collapsed="true">
+    <Position X="20.25" Y="12.25" Width="1.5" />
+    <InheritanceLine Type="TechnoClass" FixedFromPoint="true">
+      <Path>
+        <Point X="21.25" Y="11.088" />
+        <Point X="21.25" Y="11.875" />
+        <Point X="21" Y="11.875" />
+        <Point X="21" Y="12.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QIoBYMAiQQQVAwIKgIBQOyATAAQJrihAUgGRCiAJEIk=</HashCode>
+      <FileName>FOOT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyClass" Collapsed="true">
+    <Position X="15.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAgIAAQAAAABAAAAAAAAAACEAAAA=</HashCode>
+      <FileName>FLY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlasherClass" Collapsed="true">
+    <Position X="16.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAQAAAAAAgAIAQAAAAACCAAAAAAAACCAAAA=</HashCode>
+      <FileName>FLASHER.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryClass" Collapsed="true">
+    <Position X="19.75" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="StageClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.312" Y="5.562" />
+        <Point X="21.312" Y="5.875" />
+        <Point X="20.438" Y="5.875" />
+        <Point X="20.438" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQHQgIAAACCQBAIgEAgUEQACggAAAjgIBAISACEoAAE=</HashCode>
+      <FileName>FACTORY.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DriveClass" Collapsed="true">
+    <Position X="20.25" Y="14" Width="1.5" />
+    <InheritanceLine Type="FootClass" FixedFromPoint="true">
+      <Path>
+        <Point X="21" Y="12.941" />
+        <Point X="21" Y="14" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gwQAKAAAAFSA8DAAAYIGCQEIAgwAAEBAAgBAADAAEEA=</HashCode>
+      <FileName>DRIVE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorClass" Collapsed="true">
+    <Position X="14.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAEAgBAAAAAAAAAARAAAAQQEQAAAEgARCAAAEI=</HashCode>
+      <FileName>DOOR.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrewClass" Collapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CREW.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoClass" Collapsed="true">
+    <Position X="18" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAABAAAQAgAAAAEAAAQgAAIAAAAEAAAAAgCAABAA=</HashCode>
+      <FileName>CARGO.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletClass" Collapsed="true">
+    <Position X="16" Y="14.25" Width="1.5" />
+    <InheritanceLine Type="ObjectClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26" Y="4.441" />
+        <Point X="26" Y="4.762" />
+        <Point X="11.482" Y="4.762" />
+        <Point X="11.482" Y="13.875" />
+        <Point X="16.125" Y="13.875" />
+        <Point X="16.125" Y="14.25" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="FuseClass" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.188" Y="12.562" />
+        <Point X="17.188" Y="13.875" />
+        <Point X="17.5" Y="13.875" />
+        <Point X="17.5" Y="14.25" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="FlyClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.75" Y="11.062" />
+        <Point X="15.75" Y="13.394" />
+        <Point X="16.625" Y="13.394" />
+        <Point X="16.625" Y="14.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQCAiIABQACBQiICBCIQwQQAAgQAAAAAACCSACAAgAE=</HashCode>
+      <FileName>BULLET.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildingClass" Collapsed="true">
+    <Position X="22.5" Y="12.5" Width="1.5" />
+    <InheritanceLine Type="TechnoClass" FixedFromPoint="true">
+      <Path>
+        <Point X="21.688" Y="11.088" />
+        <Point X="21.688" Y="11.463" />
+        <Point X="23.25" Y="11.463" />
+        <Point X="23.25" Y="12.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AajQp6AHQQyMQmIAMRMQa0ViAjZACDmAUNCSCzCMUB0=</HashCode>
+      <FileName>BUILDING.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimClass" Collapsed="true">
+    <Position X="22.5" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="StageClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.312" Y="5.562" />
+        <Point X="22.312" Y="6.142" />
+        <Point X="22.5" Y="6.142" />
+        <Point X="22.5" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="ObjectClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.75" Y="4.441" />
+        <Point X="26.75" Y="7.26" />
+        <Point X="24" Y="7.26" />
+        <Point X="24" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BQDDgICAYKGBAgIgAAIAAVwgBgQIAKAAgB2TAWAAAAE=</HashCode>
+      <FileName>ANIM.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AircraftClass" Collapsed="true">
+    <Position X="18" Y="14.25" Width="1.5" />
+    <InheritanceLine Type="FootClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.312" Y="12.941" />
+        <Point X="20.312" Y="13.316" />
+        <Point X="19.5" Y="13.316" />
+        <Point X="19.5" Y="14.25" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="FlyClass" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.25" Y="11.062" />
+        <Point X="17.25" Y="11.614" />
+        <Point X="18" Y="11.614" />
+        <Point X="18" Y="14.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EaDAqZBEYQSVQCMIMIp0gQQAAjYESCCEAADSCCGIVAk=</HashCode>
+      <FileName>AIRCRAFT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractClass" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAKEAAAAACAAESAAAEAAAAAACABAQAAQAAAAAgE=</HashCode>
+      <FileName>ABSTRACT.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

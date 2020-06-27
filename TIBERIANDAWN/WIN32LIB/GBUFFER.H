@@ -764,29 +764,33 @@ inline long	GraphicViewPortClass::To_Buffer(BufferClass *buff)
  * HISTORY:                                                                *
  *   01/06/1995 PWG : Created.                                             *
  *=========================================================================*/
-inline HRESULT	GraphicViewPortClass::Blit(	GraphicViewPortClass& dest, int x_pixel, int y_pixel, int dx_pixel,
-				int dy_pixel, int pixel_width, int pixel_height, BOOL trans)
+inline HRESULT	GraphicViewPortClass::Blit(GraphicViewPortClass& dest, int x_pixel, int y_pixel, int dx_pixel,
+										   int dy_pixel, int pixel_width, int pixel_height, BOOL trans)
 {
-	HRESULT		return_code=0;
+	HRESULT		return_code = 0;
 
-	if ( IsDirectDraw && dest.IsDirectDraw ){
-	return(DD_Linear_Blit_To_Linear( dest, XPos+x_pixel, YPos+y_pixel
-								, dest.Get_XPos()+dx_pixel, dest.Get_YPos()+dy_pixel
-								, pixel_width, pixel_height, trans));
-	} else {
-
-		if (Lock()){
-			if (dest.Lock()){
-				return_code=(Linear_Blit_To_Linear(this, &dest, x_pixel, y_pixel
-														, dx_pixel, dy_pixel
-														, pixel_width, pixel_height, trans));
+	if(IsDirectDraw && dest.IsDirectDraw)
+	{
+		return(DD_Linear_Blit_To_Linear(dest, XPos + x_pixel, YPos + y_pixel
+			   , dest.Get_XPos() + dx_pixel, dest.Get_YPos() + dy_pixel
+			   , pixel_width, pixel_height, trans));
+	}
+	else
+	{
+		if(Lock())
+		{
+			if(dest.Lock())
+			{				
+				return_code = (long)(Linear_Blit_To_Linear(this, &dest, x_pixel, y_pixel
+							   , dx_pixel, dy_pixel
+							   , pixel_width, pixel_height, trans));
 			}
 			dest.Unlock();
 		}
 		Unlock();
 	}
 
-	return ( return_code );
+	return (return_code);
 }
 
 /***************************************************************************
@@ -801,22 +805,27 @@ inline HRESULT	GraphicViewPortClass::Blit(	GraphicViewPortClass& dest, int x_pix
  * HISTORY:                                                                *
  *   01/06/1995 PWG : Created.                                             *
  *=========================================================================*/
-inline HRESULT	GraphicViewPortClass::Blit(	GraphicViewPortClass& dest, int dx, int dy, BOOL trans)
+inline HRESULT	GraphicViewPortClass::Blit(GraphicViewPortClass& dest, int dx, int dy, BOOL trans)
 {
-	HRESULT		return_code=0;
+	HRESULT		return_code = 0;
 
 
-	if ( IsDirectDraw && dest.IsDirectDraw ){
-	return(DD_Linear_Blit_To_Linear( dest, XPos, YPos
-								, dest.Get_XPos()+dx, dest.Get_YPos()+dy
-								, Width, Height, trans));
-	} else {
+	if(IsDirectDraw && dest.IsDirectDraw)
+	{
+		return(DD_Linear_Blit_To_Linear(dest, XPos, YPos
+			   , dest.Get_XPos() + dx, dest.Get_YPos() + dy
+			   , Width, Height, trans));
+	}
+	else
+	{
 
-		if (Lock()){
-			if (dest.Lock()){
-				return_code=(Linear_Blit_To_Linear(this, &dest, 0, 0
-														, dx, dy
-														, Width, Height, trans));
+		if(Lock())
+		{
+			if(dest.Lock())
+			{
+				return_code = (long)(Linear_Blit_To_Linear(this, &dest, 0, 0
+							   , dx, dy
+							   , Width, Height, trans));
 			}
 			dest.Unlock();
 		}
@@ -839,24 +848,29 @@ inline HRESULT	GraphicViewPortClass::Blit(	GraphicViewPortClass& dest, int dx, i
  * HISTORY:                                                                *
  *   01/06/1995 PWG : Created.                                             *
  *=========================================================================*/
-inline HRESULT	GraphicViewPortClass::Blit(	GraphicViewPortClass& dest, BOOL trans)
+inline HRESULT	GraphicViewPortClass::Blit(GraphicViewPortClass& dest, BOOL trans)
 {
-	HRESULT		return_code=0;
+	HRESULT		return_code = 0;
 
 
-	if ( IsDirectDraw && dest.IsDirectDraw ){
-	return(DD_Linear_Blit_To_Linear( dest, XPos, YPos
-								, dest.Get_XPos(), dest.Get_YPos()
-								, MAX( Width, dest.Get_Width())
-								, MAX( Height, dest.Get_Height())
-								, trans));
-	} else {
+	if(IsDirectDraw && dest.IsDirectDraw)
+	{
+		return(DD_Linear_Blit_To_Linear(dest, XPos, YPos
+			   , dest.Get_XPos(), dest.Get_YPos()
+			   , MAX(Width, dest.Get_Width())
+			   , MAX(Height, dest.Get_Height())
+			   , trans));
+	}
+	else
+	{
 
-		if (Lock()){
-			if (dest.Lock()){
-				return_code=(Linear_Blit_To_Linear(this, &dest, 0, 0
-														, 0, 0
-														, Width, Height, trans));
+		if(Lock())
+		{
+			if(dest.Lock())
+			{
+				return_code = (long)(Linear_Blit_To_Linear(this, &dest, 0, 0
+							   , 0, 0
+							   , Width, Height, trans));
 			}
 			dest.Unlock();
 		}
