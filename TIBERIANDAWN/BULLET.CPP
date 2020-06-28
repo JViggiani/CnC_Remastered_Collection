@@ -221,32 +221,41 @@ BulletClass::BulletClass(BulletType id) :
  *   06/20/1994 JLB : Created.                                                                 *
  *   01/05/1995 JLB : Handles projectiles with altitude.                                       *
  *=============================================================================================*/
-short const *BulletClass::Occupy_List(void) const
+short const* BulletClass::Occupy_List(void) const
 {
 	Validate();
-	if(Altitude)
+	switch(*this)
 	{
-		static CELL _list[10];
-		const short* ptr = Coord_Spillage_List(Coord, 5);
-		int index = 0;
-		CELL cell1 = Coord_Cell(Coord);
 
-		while(ptr[index] != REFRESH_EOL)
-		{
-			_list[index] = ptr[index];
-			index++;
-		}
+	case BULLET_NUKE_UP:
+	case BULLET_NUKE_DOWN:
+		return(Coord_Spillage_List(Coord, 48));
 
-		COORDINATE coord = XY_Coord(0, Altitude);
-		coord = Coord_Sub(Coord, coord);
-		CELL cell2 = Coord_Cell(coord);
-		ptr = Coord_Spillage_List(coord, 5);
-		while(*ptr != REFRESH_EOL)
+	default:
+		if(Altitude)
 		{
-			_list[index++] = (*ptr++) + (cell2 - cell1);
+			static CELL _list[10];
+			const short* ptr = Coord_Spillage_List(Coord, 5);
+			int index = 0;
+			CELL cell1 = Coord_Cell(Coord);
+
+			while(ptr[index] != REFRESH_EOL)
+			{
+				_list[index] = ptr[index];
+				index++;
+			}
+
+			COORDINATE coord = XY_Coord(0, Altitude);
+			coord = Coord_Sub(Coord, coord);
+			CELL cell2 = Coord_Cell(coord);
+			ptr = Coord_Spillage_List(coord, 5);
+			while(*ptr != REFRESH_EOL)
+			{
+				_list[index++] = (*ptr++) + (cell2 - cell1);
+			}
+			_list[index] = REFRESH_EOL;
+			return(_list);
 		}
-		_list[index] = REFRESH_EOL;
-		return(_list);
 	}
 	return(Coord_Spillage_List(Coord, 10));
 }

@@ -776,6 +776,8 @@ typedef enum BulletType : char {
 	BULLET_NONE=-1,
 	BULLET_LASER,			// Sniper bullet.
 	BULLET_AALASER,				// Surface to surface small missile type.
+	BULLET_NUKE_UP,  		// Nuclear Missile on its way down
+	BULLET_NUKE_DOWN,		// Nuclear Missile on its way up
 
 #ifdef PETROGLYPH_EXAMPLE_MOD
 	BULLET_NUKE_LOB,		// Nuke projectile

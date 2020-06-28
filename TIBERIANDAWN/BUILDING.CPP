@@ -4706,7 +4706,7 @@ int BuildingClass::Mission_Missile(void)
 			*/
 			case LAUNCH_UP:
 				{
-					BulletClass *bullet = new BulletClass(BULLET_LASER);
+					BulletClass *bullet = new BulletClass(BULLET_NUKE_UP);
 					if (bullet) {
 						COORDINATE launch = Coord_Move(Center_Coord(), (DirType)1, 0x1A0);
 						bullet->Assign_Target(TARGET_NONE);
@@ -4741,7 +4741,7 @@ int BuildingClass::Mission_Missile(void)
 			*/
 			case LAUNCH_DOWN:
 				{
-				 	BulletClass *bullet = new BulletClass(BULLET_LASER);
+				 	BulletClass *bullet = new BulletClass(BULLET_NUKE_DOWN);
 					if (bullet) {
 //						Theme.Queue_Song(THEME_NONE);
 						COORDINATE start = Cell_Coord(XY_Cell(Cell_X(House->NukeDest), 1));

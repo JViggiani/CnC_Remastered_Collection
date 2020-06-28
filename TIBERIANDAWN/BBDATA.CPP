@@ -86,6 +86,52 @@ static BulletTypeClass const ClassAALaser(
 	ANIM_NONE					// Explosion to use upon impact.
 );
 
+static BulletTypeClass const ClassNukeUp(
+	BULLET_NUKE_UP,
+	"ATOMICUP",					// NAME:			Text name of this unit type.
+	true,						// Flies over tall walls?
+	false,					// Homes in on target?
+	false,					// Projectile arcs to the target?
+	false,					// Is this a dropping bomb-like object?
+	false,					// Is this projectile invisible?
+	true,						// Will it blow up even if it gets just NEAR to target?
+	false,					// Does it have flickering flame animation?
+	false,					// Can it run out of fuel?
+	true,						// Is there no visual difference between projectile facings?
+	false,					// Is projectile inherently inaccurate?
+	false,					// Translucent colors are used?
+	false,					// Good against aircraft?
+	0,								// ARMING:		Time to arm projectile after launch.
+	0,								// RANGE:		Inherent override range factor.
+	MPH_VERY_FAST,				// SPEED:		Miles per hour.
+	0,								// ROT:			Rate of turn (degrees per tick).
+	WARHEAD_HE,					// WARHEAD:		If fires weapon, warhead type
+	ANIM_FRAG1					// Explosion to use upon impact.
+);
+
+static BulletTypeClass const ClassNukeDown(
+	BULLET_NUKE_DOWN,
+	"ATOMICDN",					// NAME:			Text name of this unit type.
+	true,						// Flies over tall walls?
+	false,					// Homes in on target?
+	false,					// Projectile arcs to the target?
+	false,					// Is this a dropping bomb-like object?
+	false,					// Is this projectile invisible?
+	true,						// Will it blow up even if it gets just NEAR to target?
+	false,					// Does it have flickering flame animation?
+	false,					// Can it run out of fuel?
+	true,						// Is there no visual difference between projectile facings?
+	false,					// Is projectile inherently inaccurate?
+	false,					// Translucent colors are used?
+	false,					// Good against aircraft?
+	0,								// ARMING:		Time to arm projectile after launch.
+	0,								// RANGE:		Inherent override range factor.
+	MPH_VERY_FAST,				// SPEED:		Miles per hour.
+	0,								// ROT:			Rate of turn (degrees per tick).
+	WARHEAD_HE,					// WARHEAD:		If fires weapon, warhead type
+	ANIM_ATOM_BLAST			// Explosion to use upon impact.
+);
+
 #ifdef PETROGLYPH_EXAMPLE_MOD
 
 static BulletTypeClass const NukeLob(
@@ -121,6 +167,8 @@ static BulletTypeClass const NukeLob(
 BulletTypeClass const * const BulletTypeClass::Pointers[BULLET_COUNT] = {
 	&ClassLaser,		// BULLET_LASER
 	&ClassAALaser,		// BULLET_AA_LASER
+	&ClassNukeUp,		// BULLET_NUKE_UP
+	&ClassNukeDown,	// BULLET_NUKE_DOWN
 #ifdef PETROGLYPH_EXAMPLE_MOD
 	&NukeLob,			// BULLET_NUKE_LOB
 #endif //PETROGLYPH_EXAMPLE_MOD
