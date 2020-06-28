@@ -841,13 +841,13 @@ BulletClass * BuildingClass::Fire_At(TARGET target, int which)
 			Sound_Effect(weapon->Sound, Coord);
 
 			AnimClass* anim = NULL;
-			if (weapon->Fires == BULLET_BULLET) {
+			if (weapon->Fires == BULLET_LASER) {
 				anim = new AnimClass((AnimType)(ANIM_GUN_N + Dir_Facing(PrimaryFacing.Current())), Fire_Coord(which));
 			} else {
 				switch (weapon->Fires) {
-				case BULLET_SPREADFIRE:
-					break;
 				case BULLET_LASER:
+					break;
+				case BULLET_LASER || BULLET_AALASER:
 					IsCharging = false;
 					IsCharged = false;
 					Set_Stage(0);
@@ -3482,7 +3482,7 @@ FireErrorType BuildingClass::Can_Fire(TARGET target, int which) const
 		** isn't done yet, return FIRE_BUSY.  If it's done charging, stop the
 		** charging process, clear the stage timer, and return FIRE_OK.
 		*/
-		if (Class->Primary == WEAPON_OBELISK_LASER && !IsCharged) {
+		if ((Class->Primary == WEAPON_OBELISK_LASER || Class->Primary == WEAPON_AA_OBELISK_LASER)&& !IsCharged) {
 			return(FIRE_BUSY);
 		}
 	}
@@ -4706,7 +4706,7 @@ int BuildingClass::Mission_Missile(void)
 			*/
 			case LAUNCH_UP:
 				{
-					BulletClass *bullet = new BulletClass(BULLET_NUKE_UP);
+					BulletClass *bullet = new BulletClass(BULLET_LASER);
 					if (bullet) {
 						COORDINATE launch = Coord_Move(Center_Coord(), (DirType)1, 0x1A0);
 						bullet->Assign_Target(TARGET_NONE);
@@ -4741,7 +4741,7 @@ int BuildingClass::Mission_Missile(void)
 			*/
 			case LAUNCH_DOWN:
 				{
-				 	BulletClass *bullet = new BulletClass(BULLET_NUKE_DOWN);
+				 	BulletClass *bullet = new BulletClass(BULLET_LASER);
 					if (bullet) {
 //						Theme.Queue_Song(THEME_NONE);
 						COORDINATE start = Cell_Coord(XY_Cell(Cell_X(House->NukeDest), 1));

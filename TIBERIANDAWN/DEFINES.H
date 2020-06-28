@@ -774,25 +774,8 @@ typedef enum LayerType : char {
 */
 typedef enum BulletType : char {
 	BULLET_NONE=-1,
-	BULLET_SNIPER,			// Sniper bullet.
-	BULLET_BULLET,			// Small arms
-	BULLET_APDS,			// Armor piercing projectile.
-	BULLET_HE,			 	// High explosive shell.
-	BULLET_SSM,				// Surface to surface small missile type.
-	BULLET_SSM2,			// MLRS missile.
-	BULLET_SAM,				// Fast homing anti-aircraft missile.
-	BULLET_TOW,				// TOW anti-vehicle short range missile.
-	BULLET_FLAME,			// Flame thrower flame.
-	BULLET_CHEMSPRAY,		// Chemical weapon spray.
-	BULLET_NAPALM,			// Napalm bomblet.
-	BULLET_GRENADE,		// Hand tossed grenade.
-	BULLET_LASER,			// Laser beam from obelisk
-	BULLET_NUKE_UP,  		// Nuclear Missile on its way down
-	BULLET_NUKE_DOWN,		// Nuclear Missile on its way up
-	BULLET_HONEST_JOHN,	// SSM with napalm warhead.
-	BULLET_SPREADFIRE,	// Chain gun bullets.
-	BULLET_HEADBUTT,		// Stegosaurus, Triceratops head butt
-	BULLET_TREXBITE,		// Tyrannosaurus Rex's bite - especially bad for infantry
+	BULLET_LASER,			// Sniper bullet.
+	BULLET_AALASER,				// Surface to surface small missile type.
 
 #ifdef PETROGLYPH_EXAMPLE_MOD
 	BULLET_NUKE_LOB,		// Nuke projectile
@@ -1804,31 +1787,8 @@ typedef enum WarheadType : char{
 typedef enum WeaponType : char {
 	WEAPON_NONE=-1,
 
-	WEAPON_RIFLE,
-	WEAPON_CHAIN_GUN,
-	WEAPON_PISTOL,
-	WEAPON_M16,
-	WEAPON_DRAGON,
-	WEAPON_FLAMETHROWER,
-	WEAPON_FLAME_TONGUE,
-	WEAPON_CHEMSPRAY,
-	WEAPON_GRENADE,
-	WEAPON_75MM,
-	WEAPON_105MM,
-	WEAPON_120MM,
-	WEAPON_TURRET_GUN,
-	WEAPON_MAMMOTH_TUSK,
-	WEAPON_MLRS,
-	WEAPON_155MM,
-	WEAPON_M60MG,
-	WEAPON_TOMAHAWK,
-	WEAPON_TOW_TWO,
-	WEAPON_NAPALM,
 	WEAPON_OBELISK_LASER,
-	WEAPON_NIKE,
-	WEAPON_HONEST_JOHN,
-	WEAPON_STEG,
-	WEAPON_TREX,
+	WEAPON_AA_OBELISK_LASER,
 
 #ifdef PETROGLYPH_EXAMPLE_MOD
 	WEAPON_NUKE_LOB,

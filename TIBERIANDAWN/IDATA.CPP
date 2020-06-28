@@ -132,7 +132,7 @@ static InfantryTypeClass const E1(
  	HOUSEF_JP|
  	HOUSEF_GOOD|
  	HOUSEF_BAD,					// Who can own this infantry unit.
- 	WEAPON_M16,WEAPON_NONE,
+ 	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	MPH_SLOW						// Maximum speed of infantry.
 );
 
@@ -208,7 +208,7 @@ static InfantryTypeClass const E2(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_GOOD,				// Who can own this infantry unit.
-	WEAPON_GRENADE,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	MPH_SLOW_ISH			// Maximum speed of infantry.
 );
 
@@ -288,7 +288,7 @@ static InfantryTypeClass const E3(
 	HOUSEF_JP|
 	HOUSEF_GOOD|
 	HOUSEF_BAD,					// Who can own this infantry unit.
-	WEAPON_DRAGON,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 	MPH_KINDA_SLOW				// Maximum speed of infantry.
 );
 
@@ -364,7 +364,7 @@ static InfantryTypeClass const E4(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,					// Who can own this infantry unit.
-	WEAPON_FLAMETHROWER,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	MPH_SLOW_ISH
 );
 
@@ -441,7 +441,7 @@ static InfantryTypeClass const E5(
 	HOUSEF_JP|
 //	HOUSEF_GOOD|
 	HOUSEF_BAD,					// Who can own this infantry unit.
-	WEAPON_CHEMSPRAY,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	MPH_SLOW
 );
 
@@ -592,7 +592,7 @@ static InfantryTypeClass const Commando(
 	HOUSEF_JP|
 	HOUSEF_GOOD|
 	HOUSEF_BAD,					// Who can own this infantry unit.
-	WEAPON_RIFLE,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	MPH_SLOW_ISH			// Maximum speed of infantry.
 );
 
@@ -668,7 +668,7 @@ static InfantryTypeClass const C1(
 	HOUSEF_GOOD|
 	HOUSEF_BAD|
 	HOUSEF_NEUTRAL,				// Who can own this infantry unit.
-	WEAPON_PISTOL,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	MPH_SLOW_ISH
 );
 
@@ -1120,7 +1120,7 @@ static InfantryTypeClass const C7(
 	HOUSEF_GOOD|
 	HOUSEF_BAD|
 	HOUSEF_NEUTRAL,				// Who can own this infantry unit.
-	WEAPON_PISTOL,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	MPH_SLOW_ISH
 );
 
@@ -1493,7 +1493,7 @@ static InfantryTypeClass const Delphi(
 	HOUSEF_JP|
 	HOUSEF_GOOD|
 	HOUSEF_NEUTRAL,				// Who can own this infantry unit.
-	WEAPON_PISTOL,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	MPH_SLOW_ISH
 );
 

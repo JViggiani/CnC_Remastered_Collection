@@ -1149,7 +1149,7 @@ ResultType FootClass::Take_Damage(int & damage, int distance, WarheadType warhea
 			if (As_Techno(TarCom)) {
 				weap = As_Techno(TarCom)->Techno_Type_Class()->Primary;
 			}
-			bool tweap = (weap != WEAPON_NONE && weap != WEAPON_NIKE);
+			bool tweap = (weap != WEAPON_NONE && weap != WEAPON_AA_OBELISK_LASER);
 
 			/*
 			**	This ensures that if a unit is in sticky mode, then it will snap out of

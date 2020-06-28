@@ -1202,10 +1202,6 @@ void InfantryClass::AI(void)
 
 	if (IsFiring && Fetch_Stage() == firestage) {
 		Fire_At(TarCom, 0);
-
-		if (Class->Primary == WEAPON_GRENADE) {
-			Map[::As_Cell(TarCom)].Incoming(Coord, true);
-		}
 	}
 
 	/*
@@ -2517,7 +2513,7 @@ TARGET InfantryClass::Greatest_Threat(ThreatType threat) const
 		**	The sniper rifle equipped soldier doesn't go hunting for targets
 		**	unless specifically in hunt mode.
 		*/
-		case WEAPON_RIFLE:
+		case WEAPON_OBELISK_LASER:
 			if (House->IsHuman && (Mission == MISSION_GUARD || Mission == MISSION_GUARD_AREA)) {
 				return(TARGET_NONE);
 			}

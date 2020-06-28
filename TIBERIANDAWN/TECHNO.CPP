@@ -2443,7 +2443,7 @@ BulletClass * TechnoClass::Fire_At(TARGET target, int which)
 #endif
 	}
 
-	if (weapon->Fires == BULLET_LASER) {
+	if (weapon->Fires == BULLET_LASER || weapon->Fires == BULLET_AALASER) {
 		int x, y, x1, y1;
 		COORDINATE source, dest;
 		source = Fire_Coord(which);
@@ -2840,7 +2840,7 @@ int TechnoClass::Weapon_Range(int which) const
 			break;
 	}
 	if (weapon != WEAPON_NONE) {
-		if (weapon == WEAPON_NIKE && GameToPlay == GAME_NORMAL) {
+		if (weapon == WEAPON_AA_OBELISK_LASER && GameToPlay == GAME_NORMAL) {
 			return(Weapons[weapon].Range*2);
 		}
 		return(Weapons[weapon].Range);

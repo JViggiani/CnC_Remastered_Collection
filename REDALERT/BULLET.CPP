@@ -457,7 +457,7 @@ void BulletClass::AI(void)
 //			if(Class->Type == BULLET_NUKE_DOWN) {
 //				Render(true);
 //			}
-			if (Class->Type == BULLET_NUKE_UP) {
+			if (Class->Type == BULLET_LASER) {
 				if (Payback != NULL) {
 					if (Distance(Payback->As_Target()) > 0x0C00) {
 						delete this;

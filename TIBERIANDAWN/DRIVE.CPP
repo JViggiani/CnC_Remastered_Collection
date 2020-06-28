@@ -189,7 +189,7 @@ void DriveClass::Approach_Target(void)
 		**	to drive over the infantry instead of firing on it.
 		*/
 		TechnoClass * target = As_Techno(TarCom);
-		if (Class->Primary != WEAPON_FLAME_TONGUE && Class->IsCrusher && Distance(TarCom) < 0x0180 && target && ((TechnoTypeClass const &)(target->Class_Of())).IsCrushable) {
+		if (Class->IsCrusher && Distance(TarCom) < 0x0180 && target && ((TechnoTypeClass const &)(target->Class_Of())).IsCrushable) {
 			Assign_Destination(TarCom);
 			return;
 		}

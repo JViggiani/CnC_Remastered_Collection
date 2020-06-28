@@ -378,7 +378,7 @@ static BuildingTypeClass const ClassGTower(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_GOOD,							// OWNABLE:		Ownable by house (bit field).
-	WEAPON_CHAIN_GUN,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 //	WEAPON_M60MG,WEAPON_NONE,
 	ARMOR_WOOD,								// ARMOR:		Armor type
 	0,											// CANENTER:	Units that can enter building.
@@ -434,7 +434,7 @@ static BuildingTypeClass const ClassATower(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_GOOD,							// OWNABLE:		Ownable by house (bit field).
-	WEAPON_TOW_TWO,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 //	WEAPON_TOMAHAWK,WEAPON_NONE,
 	ARMOR_ALUMINUM,						// ARMOR:		Armor type
 	0,											// CANENTER:	Units that can enter building.
@@ -553,7 +553,7 @@ static BuildingTypeClass const ClassTurret(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_TURRET_GUN,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	0,											// CANENTER:	Units that can enter building.
 	0,											// CAPACITY:	Spice storage capacity.
@@ -889,7 +889,7 @@ static BuildingTypeClass const ClassSAM(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_NIKE,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	0,											// CANENTER:	Units that can enter building.
 	0,											// CAPACITY:	Spice storage capacity.

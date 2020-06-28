@@ -98,7 +98,7 @@ static UnitTypeClass const UnitVisceroid(
 	HOUSEF_BAD|
 	HOUSEF_NEUTRAL|
 	HOUSEF_JP,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_CHEMSPRAY,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_WOOD,								// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM,								// SPEED:		Miles per hour.
@@ -155,7 +155,7 @@ static UnitTypeClass const UnitFTank(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_FLAME_TONGUE,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM,								// SPEED:		Miles per hour.
@@ -212,7 +212,7 @@ static UnitTypeClass const UnitSTank(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_DRAGON,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_ALUMINUM,						// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM_FAST,						// SPEED:		Miles per hour.
@@ -269,7 +269,7 @@ static UnitTypeClass const UnitLTank(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_75MM,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM,								// SPEED:		Miles per hour.
@@ -326,7 +326,7 @@ static UnitTypeClass const UnitMTank(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_GOOD,							// OWNABLE:		Ownable by house (bit field).
-	WEAPON_105MM,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM,								// SPEED:		Miles per hour.
@@ -383,7 +383,7 @@ static UnitTypeClass const UnitHTank(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_GOOD,							// OWNABLE:		Ownable by house (bit field).
-	WEAPON_120MM,WEAPON_MAMMOTH_TUSK,
+	WEAPON_OBELISK_LASER,WEAPON_AA_OBELISK_LASER,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM_SLOW,						// SPEED:		Miles per hour.
@@ -558,7 +558,7 @@ static UnitTypeClass const UnitSAM(
 	HOUSEF_JP|
 //	HOUSEF_GOOD|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_HONEST_JOHN,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_ALUMINUM,						// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM,								// SPEED:		Miles per hour.
@@ -615,7 +615,7 @@ static UnitTypeClass const UnitArty(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_155MM,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_ALUMINUM,						// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM_SLOW,						// SPEED:		Miles per hour.
@@ -789,7 +789,7 @@ static UnitTypeClass const UnitJeep(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_GOOD,							// OWNABLE:		Ownable by house (bit field).
-	WEAPON_M60MG,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_ALUMINUM,						// ARMOR:		Armor type
 	SPEED_WHEEL,							// MOVE:			Locomotion type.
 	MPH_MEDIUM_FAST,						// SPEED:		Miles per hour.
@@ -846,7 +846,7 @@ static UnitTypeClass const UnitBuggy(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_M60MG,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_ALUMINUM,						// ARMOR:		Armor type
 	SPEED_WHEEL,							// MOVE:			Locomotion type.
 	MPH_MEDIUM_FAST,						// SPEED:		Miles per hour.
@@ -907,7 +907,7 @@ static UnitTypeClass const UnitBike(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_DRAGON,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_WOOD,								// ARMOR:		Armor type
 	SPEED_WHEEL,							// MOVE:			Locomotion type.
 	MPH_FAST,								// SPEED:		Miles per hour.
@@ -965,7 +965,7 @@ static UnitTypeClass const UnitMLRS(
 	HOUSEF_JP|
 	HOUSEF_BAD|
 	HOUSEF_GOOD,							// OWNABLE:		Ownable by house (bit field).
-	WEAPON_MLRS,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_ALUMINUM,						// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM,								// SPEED:		Miles per hour.
@@ -1023,7 +1023,7 @@ static UnitTypeClass const UnitAPC(
 	HOUSEF_BAD|
 	HOUSEF_JP|
 	HOUSEF_GOOD,							// OWNABLE:		Ownable by house (bit field).
-	WEAPON_M60MG,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM_FASTER,					// SPEED:		Miles per hour.
@@ -1081,7 +1081,7 @@ static UnitTypeClass const UnitGunBoat(
 	HOUSEF_JP|
 	HOUSEF_GOOD|
 	HOUSEF_BAD,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_TOMAHAWK,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_FLOAT,							// MOVE:			Locomotion type.
 	MPH_SLOW,								// SPEED:		Miles per hour.
@@ -1131,7 +1131,7 @@ static UnitTypeClass const UnitTric(
 	99,										// SCENARIO:	Starting availability scenario.
 	50,50,									// RISK/RWRD:	Risk/reward rating values.
 	HOUSEF_JP,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_STEG,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_SLOW,								// SPEED:		Miles per hour.
@@ -1181,7 +1181,7 @@ static UnitTypeClass const UnitTrex(
 	99,										// SCENARIO:	Starting availability scenario.
 	50,50,									// RISK/RWRD:	Risk/reward rating values.
 	HOUSEF_JP,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_TREX,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_MEDIUM,								// SPEED:		Miles per hour.
@@ -1231,7 +1231,7 @@ static UnitTypeClass const UnitRapt(
 	99,										// SCENARIO:	Starting availability scenario.
 	50,50,									// RISK/RWRD:	Risk/reward rating values.
 	HOUSEF_JP,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_TREX,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_FAST,								// SPEED:		Miles per hour.
@@ -1281,7 +1281,7 @@ static UnitTypeClass const UnitSteg(
 	99,										// SCENARIO:	Starting availability scenario.
 	50,50,									// RISK/RWRD:	Risk/reward rating values.
 	HOUSEF_JP,								// OWNABLE:		Ownable by house (bit field).
-	WEAPON_STEG,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,							// ARMOR:		Armor type
 	SPEED_TRACK,							// MOVE:			Locomotion type.
 	MPH_SLOW,								// SPEED:		Miles per hour.

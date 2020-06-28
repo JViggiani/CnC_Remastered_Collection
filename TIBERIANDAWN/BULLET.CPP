@@ -224,36 +224,29 @@ BulletClass::BulletClass(BulletType id) :
 short const *BulletClass::Occupy_List(void) const
 {
 	Validate();
-	switch (*this) {
-		case BULLET_FLAME:
-			return(Coord_Spillage_List(Coord, 25));
+	if(Altitude)
+	{
+		static CELL _list[10];
+		const short* ptr = Coord_Spillage_List(Coord, 5);
+		int index = 0;
+		CELL cell1 = Coord_Cell(Coord);
 
-		case BULLET_NUKE_UP:
-		case BULLET_NUKE_DOWN:
-			return(Coord_Spillage_List(Coord, 48));
+		while(ptr[index] != REFRESH_EOL)
+		{
+			_list[index] = ptr[index];
+			index++;
+		}
 
-		default:
-			if (Altitude) {
-				static CELL _list[10];
-				const short * ptr = Coord_Spillage_List(Coord, 5);
-				int index = 0;
-				CELL cell1 = Coord_Cell(Coord);
-
-				while (ptr[index] != REFRESH_EOL) {
-					_list[index] = ptr[index];
-					index++;
-				}
-
-				COORDINATE coord = XY_Coord(0, Altitude);
-				coord = Coord_Sub(Coord, coord);
-				CELL cell2 = Coord_Cell(coord);
-				ptr = Coord_Spillage_List(coord, 5);
-				while (*ptr != REFRESH_EOL) {
-					_list[index++] = (*ptr++) + (cell2 - cell1);
-				}
-				_list[index] = REFRESH_EOL;
-				return(_list);
-			}
+		COORDINATE coord = XY_Coord(0, Altitude);
+		coord = Coord_Sub(Coord, coord);
+		CELL cell2 = Coord_Cell(coord);
+		ptr = Coord_Spillage_List(coord, 5);
+		while(*ptr != REFRESH_EOL)
+		{
+			_list[index++] = (*ptr++) + (cell2 - cell1);
+		}
+		_list[index] = REFRESH_EOL;
+		return(_list);
 	}
 	return(Coord_Spillage_List(Coord, 10));
 }
@@ -403,7 +396,7 @@ void BulletClass::AI(void)
 			if (Class->IsAntiAircraft && As_Aircraft(TarCom) && Distance(TarCom) < 0x0080) {
 				forced = true;
 
-				if (*this == BULLET_TOW) {
+				if (*this == BULLET_AALASER) {
 					Strength += Strength/3;
 				} else {
 					Strength += Strength/2;
@@ -417,7 +410,7 @@ void BulletClass::AI(void)
 				/*
 				**	Certain projectiles loose strength when they travel.
 				*/
-				if (*this == BULLET_BULLET) {
+				if (*this == BULLET_LASER) {
 					if (Strength > 5) Strength--;
 				}
 
@@ -527,18 +520,6 @@ void BulletClass::Draw_It(int x, int y, WindowNumberType window)
 	int shapenum = 0;
 	if (!Class->IsFaceless) {
 		shapenum = UnitClass::BodyShape[facing];
-	}
-
-	/*
-	**	For tumbling projectiles, fetch offset stage.
-	*/
-	if (*this == BULLET_NAPALM) {
-		shapenum += Frame % 6;
-	}
-
-	if (*this == BULLET_GRENADE) {
-		shapenum += Frame % 8;
-//		Timer++;
 	}
 
 	/*
@@ -677,11 +658,6 @@ bool BulletClass::Unlimbo(COORDINATE coord, DirType dir)
 			if (Class->IsHoming || Class->IsArcing) {
 				int scatterdist = ::Distance(coord, tcoord)/3;
 				scatterdist = MIN(scatterdist, 0x0200);
-
-				if (*this == BULLET_GRENADE) {
-					scatterdist = ::Distance(coord, tcoord)/4;
-					scatterdist = MIN(scatterdist, 0x0080);
-				}
 
 				dir = (DirType)((dir + (Random_Pick(0, 10)-5)) & 0x00FF);
 				tcoord = Coord_Scatter(tcoord, Random_Pick(0, scatterdist));

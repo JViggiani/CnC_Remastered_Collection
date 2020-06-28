@@ -4463,7 +4463,7 @@ int BuildingClass::Mission_Missile(void)
 					CELL center = Coord_Cell(Center_Coord());
 					CELL cell = XY_Cell( Cell_X(center), 1);
 					TARGET targ = ::As_Target(cell);
-					BulletClass * bullet = new BulletClass(BULLET_NUKE_UP, targ, this, 200, WARHEAD_HE, MPH_VERY_FAST);
+					BulletClass * bullet = new BulletClass(BULLET_LASER, targ, this, 200, WARHEAD_HE, MPH_VERY_FAST);
 					if (bullet) {
 						COORDINATE launch = Coord_Move(Center_Coord(), (DirType)28, 0xA0);
 						if (!bullet->Unlimbo(launch, DIR_N)) {
@@ -4484,7 +4484,7 @@ int BuildingClass::Mission_Missile(void)
 						if (House->Control.TechLevel <= 10) {
 							return(6);
 						}
-						bullet = new BulletClass(BULLET_NUKE_DOWN, ::As_Target(House->NukeDest), this, 200, WARHEAD_NUKE, MPH_VERY_FAST);
+						bullet = new BulletClass(BULLET_LASER, ::As_Target(House->NukeDest), this, 200, WARHEAD_NUKE, MPH_VERY_FAST);
 						if (bullet) {
 							int celly = Cell_Y(House->NukeDest);
 							celly -= 64;

@@ -91,7 +91,7 @@ static AircraftTypeClass const AttackPlane(
 	HOUSEF_JP|
 	HOUSEF_GOOD|
 	HOUSEF_BAD,				// Who can own this aircraft type.
-	WEAPON_NAPALM,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_ALUMINUM,		// Armor type of this aircraft.
 	MPH_FAST,				// Maximum speed of aircraft.
 	5,							// Rate of turn.
@@ -182,7 +182,7 @@ static AircraftTypeClass const AttackHeli(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_BAD,				// Who can own this aircraft type.
-	WEAPON_CHAIN_GUN,WEAPON_NONE,
+	WEAPON_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,			// Armor type of this aircraft.
 	MPH_FAST,				// Maximum speed of aircraft.
 	4,							// Rate of turn.
@@ -228,7 +228,7 @@ static AircraftTypeClass const OrcaHeli(
 	HOUSEF_MULTI6|
 	HOUSEF_JP|
 	HOUSEF_GOOD,			// Who can own this aircraft type.
-	WEAPON_DRAGON,WEAPON_NONE,
+	WEAPON_AA_OBELISK_LASER,WEAPON_NONE,
 	ARMOR_STEEL,			// Armor type of this aircraft.
 	MPH_FAST,				// Maximum speed of aircraft.
 	4,							// Rate of turn.

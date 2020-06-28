@@ -2737,7 +2737,7 @@ bool HouseClass::Place_Special_Blast(SpecialWeaponType id, CELL cell)
 		case SPC_NUCLEAR_BOMB:
 			if (SuperWeapon[SPC_NUCLEAR_BOMB].Is_Ready()) {
 				if (SuperWeapon[SPC_NUCLEAR_BOMB].Is_One_Time()) {
-					BulletClass * bullet = new BulletClass(BULLET_NUKE_DOWN, ::As_Target(cell), 0, 200, WARHEAD_NUKE, MPH_VERY_FAST);
+					BulletClass * bullet = new BulletClass(BULLET_LASER, ::As_Target(cell), 0, 200, WARHEAD_NUKE, MPH_VERY_FAST);
 					if (bullet) {
 						int celly = Cell_Y(cell);
 						celly -= 15;

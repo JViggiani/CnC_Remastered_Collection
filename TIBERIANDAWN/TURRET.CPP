@@ -323,15 +323,6 @@ FireErrorType TurretClass::Can_Fire(TARGET target, int which) const
 		}
 		diff = ABS(diff);
 
-		/*
-		**	Special flame tank logic.
-		*/
-		if (weapon->Fires == BULLET_FLAME) {
-			if (Dir_Facing(dir) == Dir_Facing(PrimaryFacing)) {
-				diff = 0;
-			}
-		}
-
 		if (BulletTypeClass::As_Reference(weapon->Fires).IsHoming) {
 			diff >>= 2;
 		}

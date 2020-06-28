@@ -2721,7 +2721,7 @@ bool HouseClass::Place_Special_Blast(SpecialWeaponType id, CELL cell)
 					**	Since no launch site was found, just bring the missile in
 					**	directly from the North map edge.
 					*/
-				 	BulletClass *bullet = new BulletClass(BULLET_NUKE_DOWN);
+				 	BulletClass *bullet = new BulletClass(BULLET_LASER);
 					if (bullet) {
 						COORDINATE start = Cell_Coord(XY_Cell(Cell_X(cell), 0));
 						bullet->Assign_Target(::As_Target(cell));
