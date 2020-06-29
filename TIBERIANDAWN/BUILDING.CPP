@@ -549,7 +549,6 @@ void BuildingClass::Draw_It(int x, int y, WindowNumberType window)
 		**	differently than normal buildings. They need to take into consideration
 		**	the direction the turret is facing.
 		*/
-		//JOSH here? unlikely, no firing logic .. 
 		if (Class->IsTurretEquipped) {
 			shapenum = UnitClass::BodyShape[Facing_To_32(PrimaryFacing.Current())];
 
@@ -905,7 +904,6 @@ void BuildingClass::AI(void)
 	*/
 	if (*this == STRUCT_SAM && stagechange) Mark(MARK_CHANGE);
 
-	//JOSH here?
 	if ((!Class->IsTurretEquipped && *this != STRUCT_OBELISK) || Mission == MISSION_CONSTRUCTION || Mission == MISSION_DECONSTRUCTION) {
 		if (stagechange) {
 
@@ -1259,7 +1257,6 @@ void BuildingClass::AI(void)
 	**	rotating the turret to the desired facing as well as figuring out what that
 	**	desired facing should be.
 	*/
-	//JOSH here?
 	if (Class->IsTurretEquipped && Mission != MISSION_CONSTRUCTION && Mission != MISSION_DECONSTRUCTION) {
 
 		/*
@@ -2746,7 +2743,6 @@ COORDINATE BuildingClass::Fire_Coord(int ) const
 	**	Make adjustments to the firing coordinate to account for turret
 	**	position. This depends on building type and turret facing.
 	*/
-	//JOSH not here
 	switch (Class->Type) {
 		default:
 		case STRUCT_GTOWER:
@@ -3459,7 +3455,6 @@ FireErrorType BuildingClass::Can_Fire(TARGET target, int which) const
 		**	the target. If the difference is too great, then firing is
 		**	temporarily postponed.
 		*/
-		//JOSH here .. probably
 		if (Class->IsTurretEquipped) {
 			/*
 			**	If the turret is rotating then firing must be delayed.
@@ -3487,7 +3482,10 @@ FireErrorType BuildingClass::Can_Fire(TARGET target, int which) const
 		** isn't done yet, return FIRE_BUSY.  If it's done charging, stop the
 		** charging process, clear the stage timer, and return FIRE_OK.
 		*/
-		//JOSH here.. very likely!
+		// OBELISK MOD: Charging logic has been taken out entirely.
+		//	Since turrets, towers and others buildings with weapons don't have charging logic, having this in the 
+		//	code prevents those buildings from firing altogether. Aethetically it might be nice to have all units 
+		//	have charging logic, but since this isn't such a serious mod it doesn't matter so much.
 		/*
 		if ((Class->Primary == WEAPON_OBELISK_LASER || Class->Primary == WEAPON_AA_OBELISK_LASER)&& !IsCharged) {
 			return(FIRE_BUSY);
